@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4D89E154-6D34-4EF1-B935-D0DEDCA03A2D}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)run\$(Configuration)\$(Platform)\Server\</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)ProgramForServer\GameServer\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\Games;..\..\sdk;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeaderOutputFile />
+      <ProgramDataBaseFileName />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>..\..\run\Debug\x32\Server\$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>WJServerManagelib.lib;WJClientSocketLogic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+      <ProfileGuidedDatabase />
+    </Link>
+    <Bscmake>
+      <OutputFile />
+    </Bscmake>
+    <Xdcmake>
+      <OutputFile />
+    </Xdcmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;_DEBUG;WIN32;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\glog-0.3.3_custom_version;..\glog-0.3.3_custom_version\src\windows;.;..\..\Games;..\..\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeaderOutputFile />
+      <ProgramDataBaseFileName />
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>$(SolutionDir)run\$(Configuration)\$(Platform)\Server\$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>DbgHelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+      <ProfileGuidedDatabase />
+      <AdditionalOptions>/NODEFAULTLIB:libcmt.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Xdcmake>
+      <OutputFile />
+    </Xdcmake>
+    <Bscmake>
+      <OutputFile />
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeaderOutputFile />
+      <ProgramDataBaseFileName />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>..\..\run\Release\x32\Server\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>WJServerManagelib.lib;WJClientSocketLogic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+      <ProfileGuidedDatabase />
+    </Link>
+    <Bscmake>
+      <OutputFile />
+    </Bscmake>
+    <Xdcmake>
+      <OutputFile />
+    </Xdcmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\glog-0.3.3_custom_version;..\glog-0.3.3_custom_version\src\windows;.;..\..\Games;..\..\sdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeaderOutputFile />
+      <ProgramDataBaseFileName />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(SolutionDir)run\$(Configuration)\x64\Server\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)sdk\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>WJServerManagelib_r.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+      <ProfileGuidedDatabase />
+    </Link>
+    <Xdcmake>
+      <OutputFile />
+    </Xdcmake>
+    <Bscmake>
+      <OutputFile />
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Games\10000001_lol\server\MyGameDesk_10000001.cpp" />
+    <ClCompile Include="..\..\Games\10000002_hearth_stone\server\MyGameDesk_10000002.cpp" />
+    <ClCompile Include="..\..\sdk\Redis\redis-2.6\src\win32fixes.c" />
+    <ClCompile Include="GameDesk.cpp" />
+    <ClCompile Include="GameDeskManage.cpp" />
+    <ClCompile Include="GameRoom.cpp" />
+    <ClCompile Include="gameserver.cpp" />
+    <ClCompile Include="gsconfig.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="QueueManage.cpp" />
+    <ClCompile Include="RoomManage.cpp" />
+    <ClCompile Include="RTeamManage.cpp" />
+    <ClCompile Include="UserInfo.cpp" />
+    <ClCompile Include="UserInfoManage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="gameserver.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Games\10000001_lol\MyGameDeskData_10000001.h" />
+    <ClInclude Include="..\..\Games\10000001_lol\server\MyGameDesk_10000001.h" />
+    <ClInclude Include="..\..\Games\10000002_hearth_stone\MyGameDeskData_10000002.h" />
+    <ClInclude Include="..\..\Games\10000002_hearth_stone\server\MyGameDesk_10000002.h" />
+    <ClInclude Include="..\..\sdk\common\WJBaseType.h" />
+    <ClInclude Include="..\..\sdk\common\WJGameInfo.h" />
+    <ClInclude Include="..\..\sdk\common\WJUserInfoBaseStruct.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetMessageHead.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR_roominfo.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR_userinfo.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetRM_game_frame.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetRM_queue.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetRM_room.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetRM_user_action.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetRM_user_list.h" />
+    <ClInclude Include="..\..\sdk\message\WJNetRoomMessage.h" />
+    <ClInclude Include="..\..\sdk\Redis\redis-2.6\src\win32fixes.h" />
+    <ClInclude Include="..\..\sdk\Redis\WJR_agreement_room.h" />
+    <ClInclude Include="..\..\sdk\server\comstruct.h" />
+    <ClInclude Include="..\..\sdk\server\comtimetag.h" />
+    <ClInclude Include="..\..\sdk\server\MD5.h" />
+    <ClInclude Include="ErrorModule.hpp" />
+    <ClInclude Include="GameDesk.h" />
+    <ClInclude Include="GameDeskManage.h" />
+    <ClInclude Include="GameRoom.h" />
+    <ClInclude Include="gsconfig.h" />
+    <ClInclude Include="QueueManage.h" />
+    <ClInclude Include="RoomManage.h" />
+    <ClInclude Include="RTeamManage.h" />
+    <ClInclude Include="UserInfo.h" />
+    <ClInclude Include="UserInfoManage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameServer.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

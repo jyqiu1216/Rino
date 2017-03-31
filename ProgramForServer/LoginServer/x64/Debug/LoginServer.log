@@ -1,0 +1,45 @@
+﻿生成启动时间为 2017/3/30 17:43:49。
+     1>项目“E:\c++work\Object1.0\ProgramForServer\LoginServer\LoginServer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\glog-0.3.3_custom_version\src\windows" /I"..\glog-0.3.3_custom_version" /I..\..\sdk /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt mainmanage_login.cpp redisDataListManage.cpp
+         mainmanage_login.cpp
+     1>mainmanage_login.cpp(1280): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(1357): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(1465): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(1538): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(1576): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(1950): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(2162): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(2365): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(2415): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(2464): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(2535): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(2556): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(2562): warning C4018: “<”: 有符号/无符号不匹配
+     1>mainmanage_login.cpp(2584): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+         正在编译...
+         redisDataListManage.cpp
+     1>redisDataListManage.cpp(329): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c++work\Object1.0\run\Debug\x64\Server\LoginServer_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\c++work\Object1.0\sdk\lib DbgHelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\c++work\Object1.0\run\Debug\x64\Server\LoginServer_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\c++work\Object1.0\run\Debug\x64\Server\LoginServer_d.lib" /MACHINE:X64 x64\Debug\LoginServer1.res
+         x64\Debug\win32fixes.obj
+         x64\Debug\ApplyManage.obj
+         x64\Debug\balancesocket.obj
+         x64\Debug\Gamelistmanage.obj
+         x64\Debug\loginserver.obj
+         x64\Debug\lsconfig.obj
+         x64\Debug\LUserInfo.obj
+         x64\Debug\LUserInfoManage.obj
+         x64\Debug\main.obj
+         x64\Debug\mainmanage_login.obj
+         x64\Debug\redisDataListManage.obj
+         x64\Debug\TeamManage.obj
+     1>LINK : fatal error LNK1168: 无法打开 E:\c++work\Object1.0\run\Debug\x64\Server\LoginServer_d.exe 进行写入
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(607,5): error MSB6006: “link.exe”已退出，代码为 1168。
+     1>已完成生成项目“E:\c++work\Object1.0\ProgramForServer\LoginServer\LoginServer.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.99

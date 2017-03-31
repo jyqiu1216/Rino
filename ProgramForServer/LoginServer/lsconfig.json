@@ -1,0 +1,9 @@
+{
+"SysSet" :
+	{
+	"redis_on_off": true,
+	"redis_address": "118.178.25.88",
+	"redis_port": 6380,
+	"redis_pass": "XnDj"
+	}
+}

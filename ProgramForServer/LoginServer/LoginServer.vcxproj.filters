@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="hiredis必须">
+      <UniqueIdentifier>{9a40a753-ce73-4b86-a8c5-21f688b3d79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="redis事务">
+      <UniqueIdentifier>{f0d87d66-4140-4ce0-9d2c-4d42eb466b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{7ca0ff48-a090-4998-b023-9f919eb2a80f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApplyManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="balancesocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamelistmanage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loginserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lsconfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LUserInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LUserInfoManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmanage_login.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="redisDataListManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\Redis\redis-2.6\src\win32fixes.c">
+      <Filter>hiredis必须</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApplyManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="balancesocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamelistmanage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loginserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lsconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LUserInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LUserInfoManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmanage_login.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="redisDataListManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\redis-2.6\src\win32fixes.h">
+      <Filter>hiredis必须</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\WJR_a_h_apply.h">
+      <Filter>redis事务</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\WJR_a_h_gamelist.h">
+      <Filter>redis事务</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\WJR_a_h_load_hall.h">
+      <Filter>redis事务</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\WJR_a_h_team.h">
+      <Filter>redis事务</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\WJR_agreement_hall.h">
+      <Filter>redis事务</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\WJR_agreement_room.h">
+      <Filter>redis事务</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetBalancer_prot.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetMessageHead.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPlatformMessage.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPM_apply.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPM_gamelist.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPM_login.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPM_team.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR_roominfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR_userinfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorModule.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LoginServer1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

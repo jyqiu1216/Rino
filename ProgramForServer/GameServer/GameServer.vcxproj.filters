@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{9801743a-cfec-4c58-a5fd-5e6ae6c34cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序">
+      <UniqueIdentifier>{4c8c3dba-b5f6-49ac-abc1-f8d7c465027c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\房间">
+      <UniqueIdentifier>{899927f8-0960-429c-8727-f41243fe72aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\桌子">
+      <UniqueIdentifier>{03929677-0b9e-4eaa-ba30-46c9a53ebd3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\配置文件">
+      <UniqueIdentifier>{0f8057c0-d85b-4feb-b837-54a4a3215f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\排队机">
+      <UniqueIdentifier>{00059921-2cbc-4444-9829-b32f25b62f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\用户队列">
+      <UniqueIdentifier>{d29eb50e-6ecf-4e85-8877-8302ac2d17e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\团队">
+      <UniqueIdentifier>{d28459a8-0aae-4ca1-8bad-e68b02606853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\hiredis必须">
+      <UniqueIdentifier>{ba20b528-e36d-4bda-aed7-4cbbd8e38f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\游戏">
+      <UniqueIdentifier>{ed182aac-8867-4f49-bb58-defaae701f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\游戏\10000001_lol">
+      <UniqueIdentifier>{ae8bc9ce-75f7-49b1-8432-ee0dd3bcf1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\游戏\10000002_hearth_stone">
+      <UniqueIdentifier>{e667726e-2164-48d8-a505-92c8230a58a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="QueueManage.cpp">
+      <Filter>主程序\排队机</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfo.cpp">
+      <Filter>主程序\用户队列</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInfoManage.cpp">
+      <Filter>主程序\用户队列</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDesk.cpp">
+      <Filter>主程序\桌子</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDeskManage.cpp">
+      <Filter>主程序\桌子</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRoom.cpp">
+      <Filter>主程序\房间</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManage.cpp">
+      <Filter>主程序\房间</Filter>
+    </ClCompile>
+    <ClCompile Include="gameserver.cpp">
+      <Filter>主程序</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>主程序</Filter>
+    </ClCompile>
+    <ClCompile Include="RTeamManage.cpp">
+      <Filter>主程序\团队</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Games\10000001_lol\server\MyGameDesk_10000001.cpp">
+      <Filter>主程序\游戏\10000001_lol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Games\10000002_hearth_stone\server\MyGameDesk_10000002.cpp">
+      <Filter>主程序\游戏\10000002_hearth_stone</Filter>
+    </ClCompile>
+    <ClCompile Include="gsconfig.cpp">
+      <Filter>主程序\配置文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\Redis\redis-2.6\src\win32fixes.c">
+      <Filter>主程序\hiredis必须</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="gameserver.h">
+      <Filter>主程序</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sdk\common\WJUserInfoBaseStruct.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\comtimetag.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRoomMessage.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_game_frame.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_queue.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_room.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_user_action.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_user_list.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR_roominfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR_userinfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\comstruct.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\WJR_agreement_room.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\MD5.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetMessageHead.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJBaseType.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJGameInfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Games\10000002_hearth_stone\MyGameDeskData_10000002.h">
+      <Filter>主程序\游戏\10000002_hearth_stone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Games\10000001_lol\MyGameDeskData_10000001.h">
+      <Filter>主程序\游戏\10000001_lol</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfo.h">
+      <Filter>主程序\用户队列</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfoManage.h">
+      <Filter>主程序\用户队列</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueManage.h">
+      <Filter>主程序\排队机</Filter>
+    </ClInclude>
+    <ClInclude Include="gsconfig.h">
+      <Filter>主程序\配置文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDesk.h">
+      <Filter>主程序\桌子</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDeskManage.h">
+      <Filter>主程序\桌子</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRoom.h">
+      <Filter>主程序\房间</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManage.h">
+      <Filter>主程序\房间</Filter>
+    </ClInclude>
+    <ClInclude Include="RTeamManage.h">
+      <Filter>主程序\团队</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Games\10000001_lol\server\MyGameDesk_10000001.h">
+      <Filter>主程序\游戏\10000001_lol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Games\10000002_hearth_stone\server\MyGameDesk_10000002.h">
+      <Filter>主程序\游戏\10000002_hearth_stone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\redis-2.6\src\win32fixes.h">
+      <Filter>主程序\hiredis必须</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorModule.hpp">
+      <Filter>主程序</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameServer.rc" />
+  </ItemGroup>
+</Project>

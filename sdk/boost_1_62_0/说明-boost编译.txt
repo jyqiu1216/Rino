@@ -1,0 +1,27 @@
+bjam.exe --toolset=msvc-10.0 --build-type=complete
+
+
+b2.exe --toolset=msvc-10.0 link=static threading=multi variant=debug release runtime-link=static
+
+b2.exe --toolset=msvc-10.0 architecture=x86 address-model=64 link=static threading=multi variant=debug release runtime-link=static
+
+【Setp2 编译Boost】
+1.打开Visual Studio 2008 命令提示窗口
+2.进入D:/05_Computer/04_3rdPatry/02Boost/boost_1_44_0/boost_1_44_0/tools/jam/src
+3.执行 build.bat 会在D:/05_Computer/04_3rdPatry/02Boost/boost_1_44_0/boost_1_44_0
+/tools/jam/src/bin.ntx86 生成 bjam.exe文件.
+4.Copy bjam.exe 文件到 D:/05_Computer/04_3rdPatry/02Boost/boost_1_44_0/boost_1_44_0 下
+6.进入D:/05_Computer/04_3rdPatry/02Boost/boost_1_44_0/boost_1_44_0 目录
+7.执行bjam.exe 编译命令，如下：
+ 
+ 
+(1)编译所有boost动态库 （release|debug），包括头文件和库文件
+bjam --toolset=msvc-9.0 --prefix=D:/05_Computer/04_3rdPatry/02Boost/boost_1_44_0/output --without-python --build-type=complete  link=shared  threading=multi install
+ 
+(2)只编译 release 版本 regex 动态库，包括头文件和库文件
+bjam --toolset=msvc-9.0 --prefix=D:/05_Computer/04_3rdPatry/02Boost/boost_1_44_0/output1 --with-regex link=shared threading=multi variant=release runtime-link=shared  install
+ 
+(3)只编译 release 版本 regex 动态库，包括库文件
+bjam --toolset=msvc-9.0
+--stagedir=D:/05_Computer/04_3rdPatry/02Boost/boost_1_44_0/output2
+--with-regex link=shared  threading=multi variant=release runtime-link=shared  stage

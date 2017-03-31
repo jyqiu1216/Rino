@@ -1,0 +1,67 @@
+﻿生成启动时间为 2017/3/30 17:46:57。
+     1>项目“E:\c++work\Object1.0\ProgramForServer\GameServer\GameServer.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\glog-0.3.3_custom_version" /I"..\glog-0.3.3_custom_version\src\windows" /I. /I..\..\Games /I..\..\sdk /Zi /nologo /W1 /WX- /Od /D UNICODE /D _DEBUG /D WIN32 /D WIN64 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Gd /TP /errorReport:prompt ..\..\Games\10000001_lol\server\MyGameDesk_10000001.cpp ..\..\Games\10000002_hearth_stone\server\MyGameDesk_10000002.cpp GameDesk.cpp GameDeskManage.cpp GameRoom.cpp gameserver.cpp gsconfig.cpp main.cpp QueueManage.cpp RoomManage.cpp RTeamManage.cpp UserInfo.cpp UserInfoManage.cpp
+         MyGameDesk_10000001.cpp
+         MyGameDesk_10000002.cpp
+         GameDesk.cpp
+         GameDeskManage.cpp
+         GameRoom.cpp
+         gameserver.cpp
+         gsconfig.cpp
+         main.cpp
+         QueueManage.cpp
+     1>E:\c++work\Object1.0\ProgramForServer\glog-0.3.3_custom_version\src/utilities.h(38): warning C4005: “OS_WINDOWS”: 宏重定义
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\shlwapi.h(2024) : 参见“OS_WINDOWS”的前一个定义
+         RoomManage.cpp
+         RTeamManage.cpp
+         UserInfo.cpp
+         UserInfoManage.cpp
+         正在生成代码...
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\glog-0.3.3_custom_version" /I"..\glog-0.3.3_custom_version\src\windows" /I. /I..\..\Games /I..\..\sdk /Zi /nologo /W1 /WX- /Od /D UNICODE /D _DEBUG /D WIN32 /D WIN64 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Gd /TC /errorReport:prompt "..\..\sdk\Redis\redis-2.6\src\win32fixes.c"
+         win32fixes.c
+     1>e:\c++work\object1.0\sdk\redis\redis-2.6\src\win32fixes.h(59): warning C4005: “isnan”: 宏重定义
+                 D:\Microsoft Visual Studio 12.0\VC\include\math.h(289) : 参见“isnan”的前一个定义
+     1>e:\c++work\object1.0\sdk\redis\redis-2.6\src\win32fixes.h(60): warning C4005: “isfinite”: 宏重定义
+                 D:\Microsoft Visual Studio 12.0\VC\include\math.h(287) : 参见“isfinite”的前一个定义
+     1>e:\c++work\object1.0\sdk\redis\redis-2.6\src\win32fixes.h(61): warning C4005: “isinf”: 宏重定义
+                 D:\Microsoft Visual Studio 12.0\VC\include\math.h(288) : 参见“isinf”的前一个定义
+     1>..\..\sdk\Redis\redis-2.6\src\win32fixes.c(159): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
+     1>..\..\sdk\Redis\redis-2.6\src\win32fixes.c(539): warning C4133: “函数”: 从“char *”到“LPWSTR”的类型不兼容
+     1>..\..\sdk\Redis\redis-2.6\src\win32fixes.c(564): warning C4133: “函数”: 从“char [128]”到“LPWSTR”的类型不兼容
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"x64\Debug\GameServer.res" GameServer.rc 
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\c++work\Object1.0\run\Debug\x64\Server\GameServer_d.exe" /NOLOGO /LIBPATH:E:\c++work\Object1.0\sdk\lib DbgHelp.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\c++work\Object1.0\run\Debug\x64\Server\GameServer_d.lib" /MACHINE:X64 /NODEFAULTLIB:libcmt.lib x64\Debug\GameServer.res
+         x64\Debug\MyGameDesk_10000001.obj
+         x64\Debug\MyGameDesk_10000002.obj
+         x64\Debug\win32fixes.obj
+         x64\Debug\GameDesk.obj
+         x64\Debug\GameDeskManage.obj
+         x64\Debug\GameRoom.obj
+         x64\Debug\gameserver.obj
+         x64\Debug\gsconfig.obj
+         x64\Debug\main.obj
+         x64\Debug\QueueManage.obj
+         x64\Debug\RoomManage.obj
+         x64\Debug\RTeamManage.obj
+         x64\Debug\UserInfo.obj
+         x64\Debug\UserInfoManage.obj
+            正在创建库 E:\c++work\Object1.0\run\Debug\x64\Server\GameServer_d.lib 和对象 E:\c++work\Object1.0\run\Debug\x64\Server\GameServer_d.exp
+     1>hiredis_d.lib(hiredis.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“hiredis_d.lib(hiredis.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>hiredis_d.lib(net.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“hiredis_d.lib(net.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>hiredis_d.lib(sds.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“hiredis_d.lib(sds.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>json_d.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_d.lib(json_reader.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>json_d.lib(json_value.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_d.lib(json_value.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>json_d.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_d.lib(json_writer.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libglog_static.lib(logging.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libglog_static.lib(logging.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libglog_static.lib(port.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libglog_static.lib(port.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libglog_static.lib(raw_logging.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libglog_static.lib(raw_logging.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libglog_static.lib(utilities.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libglog_static.lib(utilities.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libglog_static.lib(vlog_is_on.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libglog_static.lib(vlog_is_on.obj)”或在“E:\c++work\Object1.0\run\Debug\x64\Server\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         GameServer.vcxproj -> E:\c++work\Object1.0\run\Debug\x64\Server\GameServer_d.exe
+     1>已完成生成项目“E:\c++work\Object1.0\ProgramForServer\GameServer\GameServer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.67

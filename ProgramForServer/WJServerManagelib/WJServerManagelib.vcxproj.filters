@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{e81aff7a-5e96-4be0-98d6-5ba7bbceb024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="redis">
+      <UniqueIdentifier>{84e3a342-5459-450a-9fc9-892bed5f9f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="socket">
+      <UniqueIdentifier>{552d7af8-b2c7-4cca-b7f4-492cf8ca5b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{8e0cf990-811b-4895-9493-464fbc6f8ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{119123b4-8975-46f0-a122-3581c9af68f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{1cd1988f-ddef-4d5e-8cad-f44b06b33480}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\redis-2.6\src\win32fixes.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\comstruct.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJBaseType.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJCommonMarco.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\WJListenSocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJMemoryPool.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetMessageHead.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPlatformMessage.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\WJSSocket.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\WJSSocketManage.h">
+      <Filter>socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\Redis\WJRedis.h">
+      <Filter>redis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\MD5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\commonfunction.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJSpinlock.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJPtrArray.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\server\WJTimerMgr.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\QkLogger.h">
+      <Filter>log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MD5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\WJMemoryPool.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="WJRedis.cpp">
+      <Filter>redis</Filter>
+    </ClCompile>
+    <ClCompile Include="WJListenSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSSocket.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSSocketManage.cpp">
+      <Filter>socket</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="commonfunction.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSpinlock.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="WJTimerMgr.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WJServerManagelib.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+"SysSet" :
+	{
+	"hall_server_address": "127.0.0.1",
+	"redis_on_off": true,
+	"redis_address": "118.178.25.88",
+	"redis_port": 6380,
+	"redis_pass": "XnDj",
+	"contestid0": 0
+	}
+}
