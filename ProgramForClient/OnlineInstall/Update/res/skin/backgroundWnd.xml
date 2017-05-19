@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="435,136" roundcorner="1,1,1,1" >
+    <Font name="微软雅黑" size="12" default="true" />
+    <Font name="微软雅黑" size="22" />
+	<VerticalLayout bkimage="background.png">
+		<FadeButton name="Btn_ok" float="true" pos="220,70,0,0" width="80" height="30" align="left" bkimage="file='but_y.png' source='0,0,80,30'" normalimage="file='but_y.png' source='0,0,80,30'" hotimage="file='but_y.png' source='80,0,160,30'" pushedimage="file='but_y.png' source='160,0,240,30'" />
+		<FadeButton name="Btn_cancel" float="true" pos="310,70,0,0" width="80" height="30" align="left" bkimage="file='but_n.png' source='0,0,80,30'" normalimage="file='but_n.png' source='0,0,80,30'" hotimage="file='but_n.png' source='80,0,160,30'" pushedimage="file='but_n.png' source='160,0,240,30'" />
+	</VerticalLayout>
+</Window>

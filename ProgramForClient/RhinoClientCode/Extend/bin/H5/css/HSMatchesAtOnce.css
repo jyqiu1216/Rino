@@ -1,0 +1,158 @@
+.HSMatchesAtOnceBox {
+    width: 414px;
+    height: 577px;
+}
+.HSMatchesAtOnceBox .HS_cardPackage1 {
+    width: 220px;
+    height: 244px;
+    background: url(../images/taskDekaron/HS_content.png) -20px -129px no-repeat;
+    position: relative;
+    left: 178px;
+    z-index: 10;
+}
+.HSMatchesAtOnceBox .HS_cardPackage2 {
+    width: 155px;
+    height: 248px;
+    background:  url(../images/taskDekaron/HS_content.png) -22px -411px no-repeat;
+    position: relative;
+    top: -230px;
+    left: 256px;
+    z-index: 100;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel {
+    width: 379px;
+    height: 465px;
+    background: url(../images/taskDekaron/searchMatchBg.png) no-repeat;
+    position: relative;
+    top: -375px;
+    left: 0;
+    z-index: 50;
+    overflow: hidden;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel dl {
+    width: 293px;
+    height: 88px;
+    margin: 36px 0 0 41px;
+    border-bottom: 1px solid #e0c597;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel dl dt {
+    float: left;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #374057;
+    border-radius: 4px;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel dl dd {
+    float: left;
+    width: 181px;
+    height: 70px;
+    overflow: hidden;
+    margin-left: 17px;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel dl dd h4 {
+    margin:5px 0 0 0;
+    font-size: 18px;
+    color: #0e0e0e;
+    font-weight: bolder;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel dl dd span {
+    display: inline-block;
+    margin-top: 11px;
+    color: #584e3e;
+    font-size: 12px;
+    font-weight: bold;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel dl dd span.spanBottom {
+    margin-top: 6px;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel .HS_matchTaskName {
+    width: 284px;
+    margin: 10px 0 0 50px;
+    overflow: hidden;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel .HS_matchTaskName p {
+    width: 284px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 18px;
+    color: #40392e;
+    margin: 0;
+    font-weight: bold;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel .HS_matchTaskName span {
+    font-size: 12px;
+    color: #80725c;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel ul {
+    width: 280px;
+    height: 138px;
+    margin: 8px 0 0 53px;
+    list-style: none;
+    padding: 0;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel ul li {
+    width: 280px;
+    height: 34px;
+    overflow: hidden;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel ul li span {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    text-align: left;
+    font-size: 14px;
+    color: #584e3e;
+    font-weight: bold;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel ul li p {
+    float: right;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    font-size: 14px;
+    color: #584e3e;
+    margin: 0;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel ul li .fault {
+    color: #f85b06;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel ul li .success {
+    color: #1c9a16;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel .HS_searchNow {
+    width: 217px;
+    height: 58px;
+    margin: 3px 0 0 91px;
+    background: url(../images/taskDekaron/HS_content.png) -24px -35px no-repeat;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel .HS_searchNow .HS_searchNowText {
+    float: left;
+    width: 72px;
+    height: 20px;
+    margin: 17px 71px;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel .HS_searchTime {
+    display: none;
+    width: 217px;
+    height: 30px;
+    margin: 10px 0 0 81px;
+    color: #151412;
+    font-size: 15px;
+    text-align: center;
+}
+.HSMatchesAtOnceBox .HS_searchMatchPanel .HS_searchTime span {
+    color: #151412;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+

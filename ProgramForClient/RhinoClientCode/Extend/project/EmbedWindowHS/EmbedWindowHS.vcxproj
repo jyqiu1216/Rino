@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\sdk\common\clientconfig.cpp" />
+    <ClCompile Include="..\..\..\..\..\sdk\common\WJSpinlock.cpp" />
+    <ClCompile Include="..\..\..\eventPLclent\hook\EmbedWindowHS.cpp" />
+    <ClCompile Include="..\..\..\eventPLclent\websocket\WebSocketServer.cpp" />
+    <ClCompile Include="DlgBetView.cpp" />
+    <ClCompile Include="DlgTouchWebView.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgBetView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgLoading.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgTouchWebView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgWebView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DlgWebView.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_EmbedWindowHS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WebSocketServer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgBetView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgLoading.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgTouchWebView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgWebView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EmbedWindowHS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WebSocketServer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\eventPLclent\hook\EmbedWindowHS.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing EmbedWindowHS.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -D_DEBUG -DQT_DLL -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src" "-I."</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing EmbedWindowHS.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DlgWebView.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath);D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing DlgWebView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -D_DEBUG -DQT_DLL -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src" "-I."</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath);D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing DlgWebView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src"</Command>
+    </CustomBuild>
+    <CustomBuild Include="DlgLoading.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath);D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath);D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing DlgLoading.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -D_DEBUG -DQT_DLL -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src" "-I."</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath);D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath);D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing DlgLoading.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src"</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\..\sdk\basedefine.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\eventPLclent\websocket\WebSocketServer.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing WebSocketServer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -D_DEBUG -DQT_DLL -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src" "-I."</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing WebSocketServer.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\..\sdk\common\clientconfig.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\..\sdk\common\WJSpinlock.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\eventPLclent\websocket\WSMsgHandler.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DlgTouchWebView.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing DlgTouchWebView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -D_DEBUG -DQT_DLL -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src" "-I."</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing DlgTouchWebView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src"</Command>
+    </CustomBuild>
+    <CustomBuild Include="DlgBetView.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing DlgBetView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -D_DEBUG -DQT_DLL -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src" "-I."</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing DlgBetView.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"D:\Qt\Qt5.6.0\5.6\msvc2013\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DQT_WIDGETS_LIB -DEMBEDWINDOWHS_LIB -D_WINDLL -D_UNICODE  "-I.\GeneratedFiles" "-I." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets" "-ID:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets" "-I$(SolutionDir)sdk" "-I$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent" "-I$(SolutionDir)MakeTool\lua-5.3.3\src"</Command>
+    </CustomBuild>
+    <CustomBuild Include="resource.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing Custom Build Tools</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EmbedWindowHS.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{68A57DEE-125C-41C2-824B-2D3FD1B4EFD0}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25420.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+    <OutDir>$(SolutionDir)sdk\lib\</OutDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+    <OutDir>$(SolutionDir)sdk\lib</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;_DEBUG;QT_DLL;QT_CORE_LIB;QT_NETWORK_LIB;QT_WEBSOCKETS_LIB;QT_WIDGETS_LIB;EMBEDWINDOWHS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;D:\Qt\Qt5.6.0\5.6\msvc2013\include;.\GeneratedFiles\$(ConfigurationName);D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore;D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork;D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets;D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets;$(SolutionDir)sdk;$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent;$(SolutionDir)MakeTool\lua-5.3.3\src;.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(SolutionDir)run\$(Configuration)\$(ProjectName)_d.dll</OutputFile>
+      <AdditionalLibraryDirectories>D:\Qt\Qt5.6.0\5.6\msvc2013\lib;$(SolutionDir)sdk\lib;$(SolutionDir)sdk\lib\opencv;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>D:\Qt\Qt5.6.0\5.6\msvc2013\lib\qtmaind.lib;D:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Cored.lib;D:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Guid.lib;D:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5WebSocketsd.lib;D:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Widgetsd.lib;D:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5WebEngineWidgetsd.lib;D:\Qt\Qt5.6.0\5.6\msvc2013\lib\Qt5Networkd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_NETWORK_LIB;QT_WEBSOCKETS_LIB;QT_WIDGETS_LIB;EMBEDWINDOWHS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;D:\Qt\Qt5.6.0\5.6\msvc2013\include;.\GeneratedFiles\$(ConfigurationName);D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore;D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtNetwork;D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWebSockets;D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtWidgets;$(SolutionDir)sdk;$(SolutionDir)ProgramForClient\RhinoClientCode\eventPLclent;$(SolutionDir)MakeTool\lua-5.3.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(SolutionDir)run\$(Configuration)\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>D:\Qt\Qt5.6.0\5.6\msvc2013\lib;$(SolutionDir)sdk\lib;$(SolutionDir)sdk\lib\opencv;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

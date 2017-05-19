@@ -1,0 +1,36 @@
+/*英雄联盟任务挑战背景*/
+.taskPic {
+    background: url(../images/taskDekaron/bg.png) no-repeat;
+}
+/*英雄联盟任务挑战详情页顶部背景*/
+.LOLTaskDetailTitleBg {
+    background: url(../images/taskDekaron/loltaskDetail.jpg) no-repeat;
+}
+/*英雄联盟任务挑战详情页四个li背景*/
+#taskDekaronDetailPanel .LOLTaskDetailRequest li:first-child {
+    background: url(../images/taskDekaron/li1bg.jpg) no-repeat;
+}
+#taskDekaronDetailPanel .LOLTaskDetailRequest li:nth-child(2) {
+    background: url(../images/taskDekaron/li2bg.jpg) no-repeat;
+}
+#taskDekaronDetailPanel .LOLTaskDetailRequest li:nth-child(3) {
+    background: url(../images/taskDekaron/li3bg.jpg) no-repeat;
+}
+#taskDekaronDetailPanel .LOLTaskDetailRequest li:nth-child(4) {
+    background: #121c2b;
+}
+/*英雄联盟任务详情页小头像*/
+#taskDekaronDetailPanel .LOLCompetitionRules .LOLHeroHeads dl dt {
+    background: url(../images/taskDekaron/LOLReaquestHeads.png) no-repeat;
+}
+/*炉石立即匹配头像*/
+.HSMatchesAtOnceBox .HS_searchMatchPanel dl dt {
+    background: url(../images/taskDekaron/searchMatchHead.png) no-repeat;
+}
+/*炉石内嵌页头像*/
+.HS_stakeBox .HS_player1 .HS_player1Head {
+    background: url(../images/taskDekaron/HS_playerHead.png) no-repeat;
+}
+.HS_stakeBox .HS_player2 .HS_player2Head {
+    background: url(../images/taskDekaron/HS_playerHead.png) no-repeat;
+}

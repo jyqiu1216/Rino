@@ -1,0 +1,10 @@
+﻿  WebSocketServer.cpp
+  moc_WebSocketServer.cpp
+  moc_betwindowlol.cpp
+  betwindowlol.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\extend\project\betwindowlol\DlgWebView_00000001.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\extend\project\betwindowlol\DlgTouchWebView_00000001.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\hook/WSMessageId.h(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\c++work\Object3.0\sdk\lib\BetWindowLoL_d.dll) does not match the Linker's OutputFile property value (E:\c++work\Object3.0\run\Debug\BetWindowLoL_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  BetWindowLoL.vcxproj -> E:\c++work\Object3.0\sdk\lib\BetWindowLoL_d.dll

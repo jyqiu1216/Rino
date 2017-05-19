@@ -1,0 +1,299 @@
+﻿  Moc'ing DataDrocessing.h...
+  MyDataDrocessing_10000001.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MyGameHall_10000001.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MyGameRoom_10000001.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MyDataDrocessing_10000002.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MyGameHall_10000002.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  MyGameRoom_10000002.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WJCInterface.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  BetControl_00000001.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  ClientLink.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_ClientLink.cpp
+  moc_DataDrocessing.cpp
+  moc_EmbedWindowHS.cpp
+  moc_MyDataDrocessing_10000001.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_MyDataDrocessing_10000002.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_MyGameHall_10000001.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_MyGameHall_10000002.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_MyGameRoom_10000001.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_MyGameRoom_10000002.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_WJCInterface.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_WJMainWindow.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\generatedfiles\debug\../../web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  正在编译...
+  moc_WebChannelExt.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\generatedfiles\debug\../../web/WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  moc_WebSocketServer.cpp
+  moc_bridge.cpp
+  moc_webpopup.cpp
+  moc_webpopuppag.cpp
+  QMbox.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\Web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  RoomLogic.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\web/WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WJPlatformLogic.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  bridge.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Common.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  main.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WJMainWindow.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WJWebView.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WebChannelExt.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  zsxcbeventfilter.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  webpopup.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  webpopuppag.cpp
+  DataDrocessing.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\automation\WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\identification/hs_identification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\imageidentification.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\identification\opencv_gpu_cpu.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\sdk\opencv\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\web/WJMainWindow.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WebChannelExt.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\web\WJWebView.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WebSocketServer.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\c++work\Object3.0\run\Debug\RhinoClient.exe) does not match the Linker's OutputFile property value (E:\c++work\Object3.0\run\Debug\Client_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(RhinoClient) does not match the Linker's OutputFile property value (Client_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  eventPLclent.vcxproj -> E:\c++work\Object3.0\run\Debug\RhinoClient.exe

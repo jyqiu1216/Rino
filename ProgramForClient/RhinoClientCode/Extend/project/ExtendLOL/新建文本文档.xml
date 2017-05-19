@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<Map>
+    <Address name="信息板" value="0x017D4144">
+        <Address name="OFFSET_1" value="0x0000002C">
+            <Address name="金币值" value="0x00000044">
+
+            </Address>
+        </Address>
+
+        <Address name="OFFSET_2" value="0x00000018">
+            
+        </Address>
+
+        <Address name="OFFSET_3" value="0x00000020">
+            
+        </Address>
+        <Address name="OFFSET_4" value="0x0000001C">
+            <Address name="等级" value="0x00000044"></Address>
+        </Address>
+        <Address name="OFFSET_5" value="0x00000010">
+            <Address name="包裹数组" value="0x00000004">
+                <Address name="格子1" value="0x00000004">
+                    
+                </Address>
+            </Address>
+        
+        </Address>
+    </Address>
+
+    <Address name="" value="">
+        
+    </Address>
+</Map>

@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  RhinoLauncher.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\rhinolauncher\rhinolauncher.cpp(94): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+  main.cpp
+  commonfunction_c.cpp
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\c++work\Object3.0\run\Debug\RhinoLauncher.exe) does not match the Linker's OutputFile property value (E:\c++work\Object3.0\run\Debug\RhinoClient_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(RhinoLauncher) does not match the Linker's OutputFile property value (RhinoClient_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+json_vc71_libmtd.lib(json_reader.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_vc71_libmtd.lib(json_reader.obj)”或在“E:\c++work\Object3.0\run\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+json_vc71_libmtd.lib(json_value.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_vc71_libmtd.lib(json_value.obj)”或在“E:\c++work\Object3.0\run\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+json_vc71_libmtd.lib(json_writer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“json_vc71_libmtd.lib(json_writer.obj)”或在“E:\c++work\Object3.0\run\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  RhinoLauncher.vcxproj -> E:\c++work\Object3.0\run\Debug\RhinoLauncher.exe

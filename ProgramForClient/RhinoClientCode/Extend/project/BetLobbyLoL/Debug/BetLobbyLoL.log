@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  GameLobby.cpp
+  BetLobbyLoL.cpp
+  正在生成代码...
+  dllmain.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\c++work\Object3.0\run\Debug\BetLobbyLoL.dll) does not match the Linker's OutputFile property value (E:\c++work\Object3.0\run\Debug\BetLobbyLoL_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(BetLobbyLoL) does not match the Linker's OutputFile property value (BetLobbyLoL_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  BetLobbyLoL.vcxproj -> E:\c++work\Object3.0\run\Debug\BetLobbyLoL.dll

@@ -1,0 +1,15 @@
+#ifndef BETWINDOWLOL_GLOBAL_H
+#define BETWINDOWLOL_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef BETWINDOWLOL_LIB
+# define BETWINDOWLOL_EXPORT Q_DECL_EXPORT
+#else
+# define BETWINDOWLOL_EXPORT Q_DECL_IMPORT
+#endif
+
+
+
+
+#endif // BETWINDOWLOL_GLOBAL_H

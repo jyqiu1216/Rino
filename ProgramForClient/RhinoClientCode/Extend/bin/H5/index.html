@@ -1,0 +1,29 @@
+﻿<html>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>WebSocket Client</title>
+    </head>
+    <body  bgcolor="#89481B">
+		
+		<button style="width:80px;height:30px;" onClick="sendMessage();">展开/收起</button>
+		<p>
+			<textarea id="debugTextArea" style="width:250px;height:80px;"></textarea>
+		</p>
+
+		<p>
+			<input type="text" id="inputText" style="width:195px;height:30px;" onkeydown="if(event.keyCode==13)sendMessage();"/>
+			<button style="width:48px;height:30px;" onClick="sendMessage();">发送</button>
+		</p>
+
+		
+		
+<!-- 		<p>
+			<button style="width:80px;height:30px;" onClick="initWebSocket();">连接</button>
+			<button style="width:80px;height:30px;" onClick="stopWebSocket();">断开</button>
+			<button style="width:80px;height:30px;" onClick="checkSocket();">状态</button>
+		</p> -->
+		
+		<script type="text/javascript" src="websocketHandler.js"></script>
+       
+    </body>
+</html>

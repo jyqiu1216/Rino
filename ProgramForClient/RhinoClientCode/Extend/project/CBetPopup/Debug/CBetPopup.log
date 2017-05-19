@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  WebSocketServer.cpp
+  moc_WebSocketServer.cpp
+  moc_cbetpopup.cpp
+  cbetpopup.cpp
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\hook/WSMessageId.h(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\c++work\Object3.0\sdk\lib\CBetPopup_d.dll) does not match the Linker's OutputFile property value (E:\c++work\Object3.0\run\Debug\CBetPopup_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  CBetPopup.vcxproj -> E:\c++work\Object3.0\sdk\lib\CBetPopup_d.dll

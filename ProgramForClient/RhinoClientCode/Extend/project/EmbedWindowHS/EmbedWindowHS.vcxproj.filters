@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{4321e4cd-741b-40fe-aa9f-9c5961d1a796}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3ecfa854-4801-4b9b-a7c8-80426d135cee}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src\websocket">
+      <UniqueIdentifier>{b8f270c1-02ff-406f-8094-d6aed893bd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\配置">
+      <UniqueIdentifier>{738898b3-3df7-4e99-bc07-6bfaa5d8a78f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\eventPLclent\hook\EmbedWindowHS.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWebView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgWebView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgWebView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgLoading.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgLoading.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EmbedWindowHS.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EmbedWindowHS.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\websocket\WebSocketServer.cpp">
+      <Filter>src\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WebSocketServer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WebSocketServer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTouchWebView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgTouchWebView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgTouchWebView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBetView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DlgBetView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DlgBetView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\sdk\common\clientconfig.cpp">
+      <Filter>src\配置</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\sdk\common\WJSpinlock.cpp">
+      <Filter>src\websocket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\eventPLclent\hook\EmbedWindowHS.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DlgWebView.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DlgLoading.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\eventPLclent\websocket\WebSocketServer.h">
+      <Filter>src\websocket</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DlgTouchWebView.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DlgBetView.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\..\sdk\basedefine.h">
+      <Filter>src</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\..\sdk\common\WJSpinlock.h">
+      <Filter>src\websocket</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\eventPLclent\websocket\WSMsgHandler.h">
+      <Filter>src\websocket</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\..\sdk\common\clientconfig.h">
+      <Filter>src\配置</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EmbedWindowHS.rc" />
+  </ItemGroup>
+</Project>

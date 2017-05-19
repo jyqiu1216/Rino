@@ -1,0 +1,2 @@
+°üº¬Ä¿Â¼    $(SolutionDir)..\..\sdk\boost_1_62_0
+¿âÄ¿Â¼      $(SolutionDir)..\..\sdk\boost_1_62_0\stage\lib

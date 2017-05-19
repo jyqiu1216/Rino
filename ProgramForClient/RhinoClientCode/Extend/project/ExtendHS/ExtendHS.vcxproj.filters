@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\hook">
+      <UniqueIdentifier>{53c92cc9-5019-4c31-8490-96210133482e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\d3d">
+      <UniqueIdentifier>{90586723-4b26-4fcd-8655-4e3aa6fb3d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\EventSignal.h">
+      <Filter>src\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\HookManager.h">
+      <Filter>src\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\ShareMemory.h">
+      <Filter>src\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\CaptureFromShareTexDx9.h">
+      <Filter>src\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\Dx9GPUPatch.h">
+      <Filter>src\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\HookD3D9.h">
+      <Filter>src\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\ICapture.h">
+      <Filter>src\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\common\XLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\EventSignal.cpp">
+      <Filter>src\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\HookManager.cpp">
+      <Filter>src\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\ShareMemory.cpp">
+      <Filter>src\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\CaptureFromShareTexDx9.cpp">
+      <Filter>src\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\Dx9GPUPatch.cpp">
+      <Filter>src\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\HookD3D9.cpp">
+      <Filter>src\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\ICapture.cpp">
+      <Filter>src\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="HookHS.h">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\common\XLog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ExtendHS1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

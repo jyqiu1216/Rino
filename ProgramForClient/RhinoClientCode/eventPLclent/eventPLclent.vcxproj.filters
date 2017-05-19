@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{43584ba0-2058-45cf-8549-c46f830d4b58}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{ef452eeb-93dd-4fc6-9dc7-79d8b543f9fa}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="主程序">
+      <UniqueIdentifier>{79fa1dda-1232-40b1-a089-86b606a6356b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{1e9e6c73-cba4-4b95-a3a8-35e3e3f616ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\hook">
+      <UniqueIdentifier>{f6834cec-cb5a-438d-bd16-3cbf1b4ad57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\games">
+      <UniqueIdentifier>{a076bb2d-50e7-4411-a785-ebe017f40518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\games\10000001_lol">
+      <UniqueIdentifier>{eaa9f49e-7b10-4701-8046-19ee1a4c20ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\games\10000002_hearth_stone">
+      <UniqueIdentifier>{bc116c6f-5b73-4765-931a-66efde045317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\automation">
+      <UniqueIdentifier>{ab28c28a-51de-4d2c-b9bc-ab895f8b48bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="主程序\房间">
+      <UniqueIdentifier>{33bbda7a-cda5-4700-8449-261fd24d2f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\大厅">
+      <UniqueIdentifier>{f3de3589-9eab-42be-af9d-be22c0b0fa09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\H5通信">
+      <UniqueIdentifier>{dd166d36-69b0-4a21-b041-0079c58075f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\配置">
+      <UniqueIdentifier>{fdac63e7-63e6-4df6-b32e-2fcb83051dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\common">
+      <UniqueIdentifier>{7a18a83f-fec7-4f64-b010-13cdf6c1e3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\连接窗口">
+      <UniqueIdentifier>{c5954fe1-2220-4476-b5ae-3300ba80ef15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\socket">
+      <UniqueIdentifier>{6f317d65-10d7-47b8-85d9-557747301af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主程序\luck">
+      <UniqueIdentifier>{b68a6fe6-c1a1-4523-b11f-29dcadfc9b99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="webpopup.cpp">
+      <Filter>主程序\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bridge.cpp">
+      <Filter>主程序\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Common.cpp">
+      <Filter>主程序\common</Filter>
+    </ClCompile>
+    <ClCompile Include="webpopuppag.cpp">
+      <Filter>主程序\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="automation\AutomateManager.cpp">
+      <Filter>sdk\automation</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\HookManager.cpp">
+      <Filter>sdk\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_bridge.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QMbox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WebChannelExt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webpopup.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webpopuppag.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WJWebView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_eventplclent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WebSocketServer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WebSocketServer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DataDrocessing.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DataDrocessing.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_EmbedWindowHS.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_EmbedWindowHS.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ClientLink.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ClientLink.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RoomLogic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RoomLogic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Qthread\RoomLogic.cpp">
+      <Filter>主程序\房间</Filter>
+    </ClCompile>
+    <ClCompile Include="WJPlatformLogic.cpp">
+      <Filter>主程序\大厅</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>主程序</Filter>
+    </ClCompile>
+    <ClCompile Include="web\WJMainWindow.cpp">
+      <Filter>主程序\大厅</Filter>
+    </ClCompile>
+    <ClCompile Include="websocket\DataDrocessing.cpp">
+      <Filter>主程序\H5通信</Filter>
+    </ClCompile>
+    <ClCompile Include="websocket\WebSocketServer.cpp">
+      <Filter>主程序\H5通信</Filter>
+    </ClCompile>
+    <ClCompile Include="web\WebChannelExt.cpp">
+      <Filter>主程序\H5通信</Filter>
+    </ClCompile>
+    <ClCompile Include="web\WJWebView.cpp">
+      <Filter>主程序\H5通信</Filter>
+    </ClCompile>
+    <ClCompile Include="web\zsqtmousedrag.cpp">
+      <Filter>主程序\H5通信</Filter>
+    </ClCompile>
+    <ClCompile Include="web\zsxcbeventfilter.cpp">
+      <Filter>主程序\H5通信</Filter>
+    </ClCompile>
+    <ClCompile Include="QMbox.cpp">
+      <Filter>主程序\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientLink.cpp">
+      <Filter>主程序\连接窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\sdk\clientsocket\WJCInterface.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Games\10000001_lol\client\MyGameHall_10000001.cpp">
+      <Filter>主程序\games\10000001_lol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Games\10000001_lol\client\MyDataDrocessing_10000001.cpp">
+      <Filter>主程序\games\10000001_lol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Games\10000001_lol\client\MyGameRoom_10000001.cpp">
+      <Filter>主程序\games\10000001_lol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Games\10000002_hearth_stone\client\MyDataDrocessing_10000002.cpp">
+      <Filter>主程序\games\10000002_hearth_stone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Games\10000002_hearth_stone\client\MyGameHall_10000002.cpp">
+      <Filter>主程序\games\10000002_hearth_stone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Games\10000002_hearth_stone\client\MyGameRoom_10000002.cpp">
+      <Filter>主程序\games\10000002_hearth_stone</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WJCInterface.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyGameHall_10000002.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyGameHall_10000001.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyDataDrocessing_10000001.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WJCInterface.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyDataDrocessing_10000001.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyGameHall_10000002.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyGameHall_10000001.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyDataDrocessing_10000002.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyDataDrocessing_10000002.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyGameRoom_10000001.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyGameRoom_10000001.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyGameRoom_10000002.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyGameRoom_10000002.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="BetControl_00000001.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Log.cpp">
+      <Filter>主程序\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Log.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WJMainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WJMainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\EventSignal.cpp">
+      <Filter>sdk\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook\ShareMemory.cpp">
+      <Filter>sdk\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="common\XLog.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\sdk\common\clientconfig.cpp">
+      <Filter>主程序\配置</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\sdk\common\WJSpinlock.cpp">
+      <Filter>主程序\luck</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="eventplclent.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QMbox.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webpopup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bridge.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ClientLink.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\Common.h">
+      <Filter>主程序\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="common\Model.h">
+      <Filter>主程序\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webpopup.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webpopuppag.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webpopuppag.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hook\EmbedWindowHS.h">
+      <Filter>sdk\hook</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Qthread\RoomLogic.h">
+      <Filter>主程序\房间</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WJPlatformLogic.h">
+      <Filter>主程序\大厅</Filter>
+    </CustomBuild>
+    <CustomBuild Include="web\WJMainWindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="web\WJMainWindow.h">
+      <Filter>主程序\大厅</Filter>
+    </CustomBuild>
+    <CustomBuild Include="websocket\DataDrocessing.h">
+      <Filter>主程序\H5通信</Filter>
+    </CustomBuild>
+    <CustomBuild Include="websocket\WebSocketServer.h">
+      <Filter>主程序\H5通信</Filter>
+    </CustomBuild>
+    <CustomBuild Include="web\WebChannelExt.h">
+      <Filter>主程序\H5通信</Filter>
+    </CustomBuild>
+    <CustomBuild Include="web\WJWebView.h">
+      <Filter>主程序\H5通信</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QMbox.h">
+      <Filter>主程序\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ClientLink.h">
+      <Filter>主程序\连接窗口</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\sdk\clientsocket\WJCInterface.h">
+      <Filter>sdk</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Games\10000002_hearth_stone\client\MyGameRoom_10000002.h">
+      <Filter>主程序\games\10000002_hearth_stone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Games\10000002_hearth_stone\client\MyGameHall_10000002.h">
+      <Filter>主程序\games\10000002_hearth_stone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Games\10000002_hearth_stone\client\MyDataDrocessing_10000002.h">
+      <Filter>主程序\games\10000002_hearth_stone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Games\10000001_lol\client\MyGameHall_10000001.h">
+      <Filter>主程序\games\10000001_lol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Games\10000001_lol\client\MyDataDrocessing_10000001.h">
+      <Filter>主程序\games\10000001_lol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Games\10000001_lol\client\MyGameRoom_10000001.h">
+      <Filter>主程序\games\10000001_lol</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="automation\AutomateManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\ExtendGameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\HookManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ClientLink.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_QMbox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_webpopup.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_webpopuppag.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_WJMainWindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\sdk\common\WJGameInfo.h">
+      <Filter>主程序\games</Filter>
+    </ClInclude>
+    <ClInclude Include="common\LoadWindowsMess.h">
+      <Filter>主程序\common</Filter>
+    </ClInclude>
+    <ClInclude Include="websocket\WebSocketMessInfo.h">
+      <Filter>主程序\H5通信</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\sdk\message\WJNetMessageHead.h">
+      <Filter>sdk\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\sdk\message\WJNetPlatformMessage.h">
+      <Filter>sdk\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\sdk\message\WJNetRoomMessage.h">
+      <Filter>sdk\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="web\zsqtmousedrag.h">
+      <Filter>主程序\H5通信</Filter>
+    </ClInclude>
+    <ClInclude Include="web\zsxcbeventfilter.h">
+      <Filter>主程序\H5通信</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Games\10000001_lol\MyGameDeskData_10000001.h">
+      <Filter>主程序\games\10000001_lol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Games\10000002_hearth_stone\MyGameDeskData_10000002.h">
+      <Filter>主程序\games\10000002_hearth_stone</Filter>
+    </ClInclude>
+    <ClInclude Include="BetControl_00000001.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Log.h">
+      <Filter>主程序\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorModule.hpp">
+      <Filter>主程序</Filter>
+    </ClInclude>
+    <ClInclude Include="automation\Monitor_Status_HS.h">
+      <Filter>sdk\automation</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\EventSignal.h">
+      <Filter>sdk\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook\ShareMemory.h">
+      <Filter>sdk\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="common\XLog.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="websocket\WSMsgHandler.h">
+      <Filter>主程序\H5通信</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\sdk\common\clientconfig.h">
+      <Filter>主程序\配置</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\sdk\common\WJSpinlock.h">
+      <Filter>主程序\luck</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="eventPLclent.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="png\dkl.ico" />
+    <Image Include="png\icon2.ico" />
+  </ItemGroup>
+</Project>

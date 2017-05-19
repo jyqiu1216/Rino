@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{6bb9d3a7-09b3-465c-a3fb-353013a7f727}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{1011606b-f324-4395-8f54-d32ca4759b9a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{4f46515a-8752-47e3-9a0e-8e73c8aba34d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_test_client.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_test_client.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_test_client.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WJPlatformLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clientconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WJRoomLogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="test_client.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test_client.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="test_client.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_test_client.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WJPlatformLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clientconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WJRoomLogic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetMessageHead.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPlatformMessage.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPM_apply.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPM_gamelist.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPM_login.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR_roominfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPtoR_userinfo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_game_frame.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_queue.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_room.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_user_action.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_user_list.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRoomMessage.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="test_client.rc" />
+  </ItemGroup>
+</Project>

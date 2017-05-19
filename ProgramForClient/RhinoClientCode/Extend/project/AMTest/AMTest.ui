@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowAMTest</class>
+ <widget class="QMainWindow" name="MainWindowAMTest">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>372</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AMTest</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>40</y>
+      <width>231</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_reloadLua">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>151</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>重新加载LUA</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_LOL">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>171</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>英雄联盟</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_lol_startup">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>150</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LOL:启动游戏</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_lol_create">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>150</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LOL:创建房间</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_lol_join">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>150</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LOL:加入房间</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_lol_play">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>150</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LOL:开始游戏</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_HS">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>170</y>
+      <width>171</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>炉石传说</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_hs_reqFrient">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS:添加好友</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_hs_reqChallenge">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS:发起挑战</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_hs_acceptChallenge">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS：接收挑战</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_hs_acceptFriend">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS:接受好友</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_hs_injectDll">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS:注入DLL</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_hs_msg_2005">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>330</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS:MSG_2005</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_hs_msg_2006">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>370</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS:MSG_2006</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_hs_pipei">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS:匹配成功</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_hs_end">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>150</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>YaHei Consolas Hybrid</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HS:游戏结束</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_test">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>110</y>
+      <width>151</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>测  试</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>21</y>
+      <width>54</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>参数1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_param_1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>271</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_param_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>59</y>
+      <width>271</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>54</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>YaHei Consolas Hybrid</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>参数2</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>372</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="AMTest.qrc"/>
+ </resources>
+ <connections/>
+</ui>

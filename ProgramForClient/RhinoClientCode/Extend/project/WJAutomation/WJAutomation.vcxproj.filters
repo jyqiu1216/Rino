@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{4e264c9f-8680-4b0d-8d61-5eafbb974f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{e35c7642-6074-4549-8142-fa485a5ae1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="d3d">
+      <UniqueIdentifier>{faf78d86-9a5d-4cfc-b2b6-2d0d7543ff3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="identification">
+      <UniqueIdentifier>{946116fc-cfb3-47a0-9162-8656f370fb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="caffe">
+      <UniqueIdentifier>{df76e7b8-4a43-4602-b748-2792f345339b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\eventPLclent\automation\WJAutomation.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\common\LuaEngine.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\EventSignal.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\HookManager.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\ShareMemory.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\automation\LuaInterface.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\identification\imageidentification.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\identification\imageidentification_cpu.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\identification\imageidentification_gpu.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\identification\imagelocate_cpu.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\identification\imagelocate_gpu.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\identification\opencv_gpu_cpu.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\identification\pre_text_img.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\identification\hs_identification.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\automation\GameMonitorHS.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\CaptureFromShareTexDx9.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\detours.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\detver.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\Dx9GPUPatch.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\HookD3D9.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\hook\ICapture.h">
+      <Filter>d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\automation\LuaInterfaceHS.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\automation\AMUtil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\common\ocrimpl.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\..\..\eventPLclent\identification\imageidentification_cpu-flann.h">
+      <Filter>identification</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\common\XLog.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="caffe\caffe_header.h">
+      <Filter>caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="caffe\CaffeClassifier.h">
+      <Filter>caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="caffe\CaffeRecognizer.h">
+      <Filter>caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="caffe\ImageProcessor.h">
+      <Filter>caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="caffe\LinkAllSymbols.h">
+      <Filter>caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="caffe\ResourceHandler.hpp">
+      <Filter>caffe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\eventPLclent\automation\CaffeManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\automation\WJAutomation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\common\LuaEngine.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\automation\LuaInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\EventSignal.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\HookManager.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\ShareMemory.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\identification\imageidentification_cpu.cpp">
+      <Filter>identification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\identification\imageidentification_gpu.cpp">
+      <Filter>identification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\identification\imagelocate_cpu.cpp">
+      <Filter>identification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\identification\imagelocate_gpu.cpp">
+      <Filter>identification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\identification\opencv_gpu_cpu.cpp">
+      <Filter>identification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\identification\pre_text_img.cpp">
+      <Filter>identification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\identification\hs_identification.cpp">
+      <Filter>identification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\automation\GameMonitorHS.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\CaptureFromShareTexDx9.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\Dx9GPUPatch.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\HookD3D9.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\hook\ICapture.cpp">
+      <Filter>d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\automation\LuaInterfaceHS.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\common\ocrimpl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\identification\imageidentification_cpu-flann.cpp">
+      <Filter>identification</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\common\XLog.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="caffe\CaffeClassifier.cpp">
+      <Filter>caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="caffe\CaffeRecognizer.cpp">
+      <Filter>caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="caffe\ImageProcessor.cpp">
+      <Filter>caffe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\eventPLclent\automation\CaffeManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WJAutomation.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,307 @@
+/* 炉石详情页收起 */
+.HSDetailPackUp {
+    animation: HSDetailPackUp normal 1s forwards;
+    -webkit-animation: HSDetailPackUp normal 1s forwards;
+}
+@keyframes HSDetailPackUp {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -985px;
+    }
+}
+@-webkit-keyframes HSDetailPackUp {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -985px;
+    }
+}
+/* 炉石详情页下啦 */
+.HSDetailPackDown {
+    animation: HSDetailPackDown ease 1.5s forwards;
+    -webkit-animation: HSDetailPackDown ease 1.5s forwards;
+}
+@keyframes HSDetailPackDown {
+    0% {
+        top: -985px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+@-webkit-keyframes HSDetailPackDown {
+    0% {
+        top: -985px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+/* 炉石下拉框显示 */
+.HSDetailShowDown {
+    animation: HSDetailShowDown ease 1s forwards;
+    -webkit-animation: HSDetailShowDown ease 1s forwards;
+}
+@keyframes HSDetailShowDown {
+    0% {
+        top: -67px;
+    }
+    50% {
+        top: 20px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+@-webkit-keyframes HSDetailShowDown {
+    0% {
+        top: -67px;
+    }
+    50% {
+        top: 20px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+/* 炉石下拉框收起 */
+.HSDetailShowUp {
+    animation: HSDetailShowUp ease 1s forwards;
+    -webkit-animation: HSDetailShowUp ease 1s forwards;
+}
+@keyframes HSDetailShowUp {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -67px;
+    }
+}
+@-webkit-keyframes HSDetailShowUp {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -67px;
+    }
+}
+/*英雄联盟详情页收起*/
+.LOLDetailPackUp {
+    animation: LOLDetailPackUp normal 1s forwards;
+    -webkit-animation: LOLDetailPackUp normal 1s forwards;
+}
+@keyframes LOLDetailPackUp {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -1002px;
+    }
+}
+@-webkit-keyframes LOLDetailPackUp {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -1002px;
+    }
+}
+/*英雄联盟详情页显示*/
+.LOLDetailPackDown {
+    animation: LOLDetailPackDown ease 1.5s forwards;
+    -webkit-animation: LOLDetailPackDown ease 1.5s forwards;
+}
+@keyframes LOLDetailPackDown {
+    0% {
+        top: -1002px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+@-webkit-keyframes LOLDetailPackDown {
+    0% {
+        top: -1002px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+/*英雄联盟下拉框落下*/
+.LOLDetailShowDown {
+    animation: LOLDetailShowDown ease 1s forwards;
+    -webkit-animation: LOLDetailShowDown ease 1s forwards;
+}
+@keyframes LOLDetailShowDown {
+    0% {
+        top: -91px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+@-webkit-keyframes LOLDetailShowDown {
+    0% {
+        top: -91px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+/*英雄联盟下拉框收起*/
+.LOLDetailShowUp {
+    animation: LOLDetailShowUp ease 1s forwards;
+    -webkit-animation: LOLDetailShowUp ease 1s forwards;
+}
+@keyframes LOLDetailShowUp {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -91px;
+    }
+}
+@-webkit-keyframes LOLDetailShowUp {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: -91px;
+    }
+}
+/*卡片翻页*/
+/*1右侧翻出*/
+.cardMoveRightOut {
+    animation: cardMoveRightOut ease 2s forwards;
+    -webkit-animation: cardMoveRightOut ease 2s forwards;
+}
+@keyframes cardMoveRightOut {
+    0% {
+        margin-left: -483px;
+        z-index: 100;
+    }
+    50% {
+        margin-left: 120px;
+        z-index: 100;
+    }
+    100% {
+        margin-left: -483px;
+        z-index: 10;
+    }
+}
+@-webkit-keyframes cardMoveRightOut {
+    0% {
+        margin-left: -483px;
+        z-index: 100;
+    }
+    50% {
+        margin-left: 120px;
+        z-index: 100;
+    }
+    100% {
+        margin-left: -483px;
+        z-index: 10;
+    }
+}
+/*1左侧翻入*/
+.cardMoveLeftOn {
+    animation: cardMoveLeftOn ease 1.5s forwards;
+    -webkit-animation: cardMoveLeftOn ease 1.5s forwards;
+}
+@keyframes cardMoveLeftOn {
+    0% {
+        margin-left: -483px;
+        z-index: 20;
+    }
+    50% {
+        margin-left: -606px;
+        z-index: 20;
+    }
+    100% {
+        margin-left: -483px;
+        z-index: 100;
+    }
+}
+@-webkit-keyframes cardMoveLeftOn {
+    0% {
+        margin-left: -483px;
+        z-index: 20;
+    }
+    50% {
+        margin-left: -606px;
+        z-index: 20;
+    }
+    100% {
+        margin-left: -483px;
+        z-index: 100;
+    }
+}
+/*2右侧翻入*/
+.cardMoveRightOn {
+    animation: cardMoveRightOn ease 1.5s forwards;
+    -webkit-animation: cardMoveRightOn ease 1.5s forwards;
+}
+@keyframes cardMoveRightOn {
+    0% {
+        margin-left: -483px;
+        z-index: 20;
+    }
+    50% {
+        margin-left: -360px;
+        z-index: 20;
+    }
+    100% {
+        margin-left: -483px;
+        z-index: 100;
+    }
+}
+@-webkit-keyframes cardMoveRightOn {
+    0% {
+        margin-left: -483px;
+        z-index: 20;
+    }
+    50% {
+        margin-left: -360px;
+        z-index: 20;
+    }
+    100% {
+        margin-left: -483px;
+        z-index: 100;
+    }
+}
+/*2左侧翻出*/
+.cardMoveLeftOut {
+    animation: cardMoveLeft ease 2s forwards;
+    -webkit-animation: cardMoveLeft ease 2s forwards;
+}
+@keyframes cardMoveLeft {
+    0% {
+        margin-left: -483px;
+        z-index: 100;
+    }
+    50% {
+        margin-left: -1000px;
+        z-index: 100;
+    }
+    100% {
+        margin-left: -483px;
+        z-index: 10;
+    }
+}
+@-webkit-keyframes cardMoveLeft {
+    0% {
+        margin-left: -483px;
+        z-index: 100;
+    }
+    50% {
+        margin-left: -1000px;
+        z-index: 100;
+    }
+    100% {
+        margin-left: -483px;
+        z-index: 10;
+    }
+}

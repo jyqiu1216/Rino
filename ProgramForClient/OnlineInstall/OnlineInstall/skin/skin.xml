@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="600,400" caption="0,0,0,60" roundcorner="1,1,1,1">
+    <Font name="微软雅黑" size="12" default="true" />
+    <Font name="微软雅黑" size="16" />
+    <HorizontalLayout name="Hor_Window" bkimage="bk.png">
+        <VerticalLayout >
+            <HorizontalLayout height="43">
+                <VerticalLayout width="533" height="43" />
+                <VerticalLayout>
+                    <HorizontalLayout>
+                        <Button name="minbtn" float="true" pos="3,0,0,0" width="32" height="22" bkimage="file=&apos;Btn_Mini.png&apos; source=&apos;0,0,32,22&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;Btn_Mini.png&apos; source=&apos;0,0,32,22&apos;" hotimage="file=&apos;Btn_Mini.png&apos; source=&apos;32,0,64,22&apos;" pushedimage="file=&apos;Btn_Mini.png&apos; source=&apos;64,0,96,22&apos;" />
+                        <Button name="closebtn" float="true" pos="34,0,0,0" width="32" height="22" bkimage="file=&apos;Btn_Close.png&apos; source=&apos;0,0,32,22&apos;" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;Btn_Close.png&apos; source=&apos;0,0,32,22&apos;" hotimage="file=&apos;Btn_Close.png&apos; source=&apos;32,0,64,22&apos;" pushedimage="file=&apos;Btn_Close.png&apos; source=&apos;64,0,96,22&apos;" />
+                    </HorizontalLayout>
+                </VerticalLayout>
+            </HorizontalLayout>
+			<TabLayout name="Tab_MainSwitch" >
+				<TabLayout name="Tab_Switch" >
+					<VerticalLayout>
+						<HorizontalLayout>
+							<FadeButton name="Btn_Install" float="true" pos="313,140,0,0" width="249" height="84" bkimage="file='Btn_Install.png' source='0,0,249,84'" normalimage="file='Btn_Install.png' source='0,0,249,84'" hotimage="file='Btn_Install.png' source='249,0,498,84'" pushedimage="file='Btn_Install.png' source='498,0,747,84'"/>
+						</HorizontalLayout>
+						<HorizontalLayout height="40">
+							<Option name="Opt_Agree" float="true" pos="20,8,0,0" width="110" height="20" align="right" normalimage="file=&apos;option.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;0,0,21,21&apos;" selectedimage="file=&apos;option.png&apos; dest=&apos;0,0,21,21&apos; source=&apos;21,0,42,21&apos;"/>
+							<Label name="Label_agreement" text="我同意" textcolor="0xFFFFFFFF" float="true" pos="50,10,0,0" width="40" height="30" align="left"/>
+							<Button name="Btn_agreement" text="《犀牛电竞用户协议》" textcolor="#000094E3" float="true" pos="92,10,0,0" width="200" height="30" align="left"/>
+							<FadeButton name="Btn_Custom" float="true" pos="458,0,0,0" width="130" height="30"/>
+							<Control float="true" pos="0,30,0,0" width="600" height="10" bkcolor="#ff0c78cb" />
+						</HorizontalLayout>
+						<HorizontalLayout name="Hor_Custom" width="600">
+							<Label text="安装路径：" float="true" pos="55,3,0,0" width="64" height="30" textcolor="#000094E3" />
+							<Edit name="Edt_Path" float="true" pos="123,6,0,0" width="349" height="25" textpadding="4,3,4,3" bkimage="Edit.png"/>
+							<FadeButton name="Btn_Change" text="更  改" float="true" pos="479,7,0,0" width="60" height="24" bkimage="file='Btn_Default.png' source='0,0,96,24'" normalimage="file='Btn_Default.png' source='0,0,96,24'" hotimage="file='Btn_Default.png' source='0,24,96,48'" pushedimage="file='Btn_Default.png' source='0,48,96,72'" />
+							<Text name="Txt_ShowMsg" float="true" pos="134,34,0,0" width="500" height="30" textpadding="2,0,2,0" align="left" textcolor="#000094E3" />
+						</HorizontalLayout>
+						<HorizontalLayout height="10" />
+					</VerticalLayout>
+					<VerticalLayout>
+						<HorizontalLayout name="theme" height="240" />
+						<HorizontalLayout name="Custom" height="117" >
+							<Progress name="Pro_Install" float="true" pos="50,40,0,0" width="500" height="24" bkimage="file='Progress.png' source='0,0,50,24' corner='7,7,7,7'" foreimage="file='Progress.png' source='50,0,100,24' corner='7,7,7,7'" min="0" max="1000" value="0" hor="true" />
+							<Text text="安装进度..." float="true" pos="50,10,0,0" width="80" height="30" textcolor="#000094E3" font="1"/>
+							<Text name="Txt_Status" text="0%"float="true" pos="130,10,0,0" width="60" height="30" textcolor="#000094E3" font="1"/>
+							<Text name="Txt_Error" float="true" pos="50,70,0,0" width="300" height="30" textpadding="2,0,2,0" textcolor="#000094E3" />
+						</HorizontalLayout>
+					</VerticalLayout>
+					<VerticalLayout>
+                		<FadeButton name="Btn_Finish" float="true" pos="100,265,0,0" width="176" height="58" bkimage="file='Btn_Finish.png' source='0,0,176,58'" normalimage="file='Btn_Finish.png' source='0,0,176,58'"   hotimage="file='Btn_Finish.png' source='176,0,352,58'" pushedimage="file='Btn_Finish.png' source='352,0,528,58'" />
+                		<FadeButton name="Btn_Start" float="true" pos="310,265,0,0" width="176" height="58"  bkimage="file='Btn_Start.png' source='0,0,176,58'" normalimage="file='Btn_Start.png' source='0,0,176,58'"   hotimage="file='Btn_Start.png' source='176,0,352,58'" pushedimage="file='Btn_Start.png' source='352,0,528,58'" />   
+					</VerticalLayout>
+				</TabLayout>
+				<VerticalLayout>
+					<FadeButton name="Btn_Back" text="返回" float="true" pos="500,7,0,0" width="60" height="24" bkimage="file='Btn_Default.png' source='0,0,96,24'" normalimage="file='Btn_Default.png' source='0,0,96,24'" hotimage="file='Btn_Default.png' source='0,24,96,48'" pushedimage="file='Btn_Default.png' source='0,48,96,72'" />
+					<RichEdit name="Txt_info" vscrollbar="true" hscrollbar="true" float="true" pos="20,30,0,0" width="570" height="320" textpadding="2,0,2,0" align="left" textcolor="0xFFFFFFFF" />
+				</VerticalLayout>
+			</TabLayout>			
+        </VerticalLayout>
+    </HorizontalLayout>
+</Window>

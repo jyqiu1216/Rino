@@ -1,0 +1,72 @@
+﻿  Moc'ing AMTest.h...
+  Uic'ing AMTest.ui...
+  Moc'ing EmbedWindowHS.h...
+  Moc'ing WebSocketClient.h...
+  Moc'ing WebSocketServer.h...
+  Rcc'ing AMTest.qrc...
+RCC : warning : No resources in 'E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\Extend\project\AMTest\AMTest.qrc'.
+  
+  XLog.cpp
+  EventSignal.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  HookManager.cpp
+  ShareMemory.cpp
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  WebSocketClient.cpp
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobject.h(224): error C2338: The slot requires more arguments than the signal provides.
+          ..\..\..\eventPLclent\WebSocket\WebSocketClient.cpp(44): 参见对正在编译的函数 模板 实例化“QMetaObject::Connection QObject::connect<void(__thiscall QWebSocket::* )(const QString &),void(__thiscall WSMsgHandler::* )(const QString &,Cweb_c_type)>(const QWebSocket *,Func1,const WSMsgHandler *,Func2,Qt::ConnectionType)”的引用
+          with
+          [
+              Func1=void (__thiscall QWebSocket::* )(const QString &)
+  ,            Func2=void (__thiscall WSMsgHandler::* )(const QString &,Cweb_c_type)
+          ]
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobject.h(226): error C2338: Signal and slot arguments are not compatible.
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2039: “Car”: 不是“QtPrivate::List<>”的成员
+          D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): 参见对正在编译的类 模板 实例化“QtPrivate::List_Left<QtPrivate::List<>,1>”的引用
+          D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobject.h(237): 参见对正在编译的类 模板 实例化“QtPrivate::List_Left<QtPrivate::List<const QString &>,2>”的引用
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2146: 语法错误: 缺少“,”(在标识符“Car”的前面)
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2065: “Car”: 未声明的标识符
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C3544: “<unnamed-symbol>”:  参数包需要一个类型模板参数
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2039: “Cdr”: 不是“QtPrivate::List<>”的成员
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2146: 语法错误: 缺少“,”(在标识符“Cdr”的前面)
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2065: “Cdr”: 未声明的标识符
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2977: “QtPrivate::List_Left”: 模板 参数太多
+          D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(72) : 参见“QtPrivate::List_Left”的声明
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2146: 语法错误: 缺少“,”(在标识符“Value”的前面)
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2065: “Value”: 未声明的标识符
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2977: “QtPrivate::List_Append”: 模板 参数太多
+          D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(70) : 参见“QtPrivate::List_Append”的声明
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2955: “QtPrivate::List_Append”: 使用 类 模板 需要 模板 参数列表
+          D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(70) : 参见“QtPrivate::List_Append”的声明
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2027: 使用了未定义类型“QtPrivate::List_Append”
+          D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(70) : 参见“QtPrivate::List_Append”的声明
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2146: 语法错误: 缺少“;”(在标识符“Value”的前面)
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2602: “QtPrivate::List_Left<QtPrivate::List<>,1>::Value”不是“QtPrivate::List_Left<QtPrivate::List<>,1>”基类的成员
+          D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73) : 参见“QtPrivate::List_Left<QtPrivate::List<>,1>::Value”的声明
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2868: “QtPrivate::List_Left<QtPrivate::List<>,1>::Value”: 非法的 using 声明语法；应输入限定名
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2027: 使用了未定义类型“QtPrivate::List_Append<QtPrivate::List<const QString &>,int>”
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2602: “QtPrivate::List_Left<QtPrivate::List<const QString &>,2>::Value”不是“QtPrivate::List_Left<QtPrivate::List<const QString &>,2>”基类的成员
+          D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73) : 参见“QtPrivate::List_Left<QtPrivate::List<const QString &>,2>::Value”的声明
+D:\Qt\Qt5.6.0\5.6\msvc2013\include\QtCore/qobjectdefs_impl.h(73): error C2868: “QtPrivate::List_Left<QtPrivate::List<const QString &>,2>::Value”: 非法的 using 声明语法；应输入限定名
+  WebSocketServer.cpp
+  AMTest.cpp
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\automation/WJAutomation.h(89): warning C4091: “__declspec(dllexport)”: 没有声明变量时忽略“AMCallback”的左侧
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\automation/WJAutomation.h(158): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::LOGININFO”的左侧
+E:\c++work\Object3.0\ProgramForClient\RhinoClientCode\eventPLclent\automation/WJAutomation.h(172): warning C4091: “typedef ”: 没有声明变量时忽略“WJAM::ROOMINFO”的左侧
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\ShareMemory.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\hook\IDataRecive.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+AMTest.cpp(91): error C2259: “MyWSMsgHandler”: 不能实例化抽象类
+          由于下列成员: 
+          “void WSMsgHandler::onRecvMsg(const QString &,Cweb_c_type)”: 是抽象的
+          e:\c++work\object3.0\programforclient\rhinoclientcode\eventplclent\websocket\WSMsgHandler.h(80) : 参见“WSMsgHandler::onRecvMsg”的声明
+AMTest.cpp(120): error C2664: “void EmbedWindowHS::initialize(HWND,QUrl &,WebSocketServer *)”: 无法将参数 3 从“int”转换为“WebSocketServer *”
+          从整型转换为指针类型要求 reinterpret_cast、C 样式转换或函数样式转换
+  moc_AMTest.cpp
+  moc_EmbedWindowHS.cpp
+  moc_WebSocketClient.cpp
+  moc_WebSocketServer.cpp
+  main.cpp
+  正在生成代码...

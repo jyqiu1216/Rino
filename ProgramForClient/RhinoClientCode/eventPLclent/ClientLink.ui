@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientLink</class>
+ <widget class="QDialog" name="ClientLink">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>323</width>
+    <height>192</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ClientLink</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>301</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/eventq/png/团队挑战赛background.png);</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 14pt &quot;Arial&quot;;</string>
+    </property>
+    <property name="text">
+     <string>正在启动请稍后...........</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_close">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>11</width>
+      <height>9</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/eventq/png/关闭.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Reconnect">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>100</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/eventq/png/个人资料切图/保存按钮.png);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>重新连接</string>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="eventplclent.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_close</sender>
+   <signal>clicked()</signal>
+   <receiver>ClientLink</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>285</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>161</x>
+     <y>95</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

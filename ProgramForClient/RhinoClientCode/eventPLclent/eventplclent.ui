@@ -1,0 +1,3889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>eventPLclentClass</class>
+ <widget class="QMainWindow" name="eventPLclentClass">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1102</width>
+    <height>777</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>eventPLclent</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton_hall">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>163</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/eventq/png/主界面LOGO.png);</string>
+    </property>
+    <property name="text">
+     <string>logo</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>1</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/消息提示.png);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>90</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_close">
+    <property name="geometry">
+     <rect>
+      <x>1084</x>
+      <y>10</y>
+      <width>14</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/关闭.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Recharge">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>-1</y>
+      <width>107</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/头部/2-1充值.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Platformmall">
+    <property name="geometry">
+     <rect>
+      <x>265</x>
+      <y>-1</y>
+      <width>106</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/头部/3-1商城.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Entryrecord">
+    <property name="geometry">
+     <rect>
+      <x>369</x>
+      <y>-1</y>
+      <width>105</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/头部/4-1参赛记录.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Officialnews">
+    <property name="geometry">
+     <rect>
+      <x>472</x>
+      <y>-1</y>
+      <width>105</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/头部/5-1官方消息.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Invitefriends">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>-1</y>
+      <width>106</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/头部/6-1邀请好友.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Youmentionmechange">
+    <property name="geometry">
+     <rect>
+      <x>679</x>
+      <y>-1</y>
+      <width>106</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/头部/7-1你提我改.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Ladderranking">
+    <property name="geometry">
+     <rect>
+      <x>783</x>
+      <y>-1</y>
+      <width>106</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/头部/8-1天梯排行.png);
+border-image: url(:/eventq/png/全透明.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Setup">
+    <property name="geometry">
+     <rect>
+      <x>887</x>
+      <y>-1</y>
+      <width>106</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/eventq/png/全透明.png);
+background-image: url(:/eventq/png/头部/9-1设置.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Helpcenter">
+    <property name="geometry">
+     <rect>
+      <x>991</x>
+      <y>-1</y>
+      <width>121</width>
+      <height>72</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/头部/10-1帮助中心.png);
+border-image: url(:/eventq/png/全透明.png);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_9" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>67</y>
+      <width>163</width>
+      <height>752</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/游戏列表background.png);</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>91</width>
+       <height>86</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/eventq/png/全透明.png);
+color: rgb(255, 255, 255);
+border-image: url(:/eventq/png/头像.png);
+border-image: url(:/eventq/png/个人资料切图/头像.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_accountname">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+background-image: url(:/eventq/png/全透明.png);
+font: 12pt &quot;微软雅黑&quot;;</string>
+     </property>
+     <property name="text">
+      <string>一二三四五六七八</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>237</y>
+       <width>160</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>159</width>
+       <height>121</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/eventq/png/英雄联盟选中.png);</string>
+     </property>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>10</y>
+        <width>32</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/eventq/png/英雄联盟logo.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_PersonalChallenge" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>46</y>
+        <width>161</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+      </property>
+      <widget class="QLabel" name="label_PersonalChallenge">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>167</width>
+         <height>43</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/eventq/png/游戏类型选择.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_personalsolo">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>167</width>
+         <height>36</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>167</width>
+         <height>36</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+</string>
+       </property>
+       <property name="text">
+        <string>个人挑战赛</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_PersonalChallenge_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>167</width>
+         <height>43</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/eventq/png/游戏类型选择.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <zorder>label_PersonalChallenge</zorder>
+      <zorder>label_PersonalChallenge_2</zorder>
+      <zorder>pushButton_personalsolo</zorder>
+     </widget>
+     <widget class="QWidget" name="widget_TeamChallenge" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>82</y>
+        <width>161</width>
+        <height>37</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/eventq/png/全透明.png);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_teamchange">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>168</width>
+         <height>33</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>168</width>
+         <height>33</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+</string>
+       </property>
+       <property name="text">
+        <string>团队挑战赛</string>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_TeamChallenge">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/eventq/png/游戏类型选择.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_TeamChallenge_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/eventq/png/游戏类型选择.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <zorder>label_TeamChallenge</zorder>
+      <zorder>label_TeamChallenge_2</zorder>
+      <zorder>pushButton_teamchange</zorder>
+     </widget>
+     <widget class="QPushButton" name="pushButton_HeroUnion">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>4</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;微软雅黑&quot;;
+color: rgb(255, 255, 255);
+background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+      </property>
+      <property name="text">
+       <string> 英雄联盟</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_Hearthstone">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>361</y>
+       <width>158</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>151</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;微软雅黑&quot;;
+color: rgb(150, 150, 150);
+background-image: url(:/enentq/png/游戏未选中.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+     </property>
+     <property name="text">
+      <string> 炉石传说</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>360</y>
+       <width>32</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/eventq/png/炉石传说logo.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_Entertainment" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+     </property>
+     <widget class="QLabel" name="label_Entertainment">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>133</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/eventq/png/金币框-静止.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_EntertainmentCurrency">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>135</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+border-image: url(:/eventq/png/全透明.png);
+background-image: url(:/eventq/png/全透明.png);
+text-align :right;
+font: 16pt &quot;微软雅黑&quot;;</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string>0  </string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Entertainment_Sele">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>133</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/eventq/png/金币框-悬停.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <zorder>label_Entertainment_Sele</zorder>
+     <zorder>label_Entertainment</zorder>
+     <zorder>pushButton_EntertainmentCurrency</zorder>
+    </widget>
+    <widget class="QWidget" name="widget_integral" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>136</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/eventq/png/全透明.png);
+background-image: url(:/eventq/png/全透明.png);</string>
+     </property>
+     <widget class="QLabel" name="label_integral">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>133</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/eventq/png/积分框-静止.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_integral_sele">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>133</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/eventq/png/积分框-悬停.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_integral">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>135</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+color: rgb(255, 255, 255);text-align :right;
+font: 16pt &quot;微软雅黑&quot;;</string>
+      </property>
+      <property name="text">
+       <string>0  </string>
+      </property>
+      <property name="autoRepeatInterval">
+       <number>101</number>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <zorder>label_14</zorder>
+    <zorder>label</zorder>
+    <zorder>label_accountname</zorder>
+    <zorder>widget_3</zorder>
+    <zorder>pushButton_Hearthstone</zorder>
+    <zorder>widget_Entertainment</zorder>
+    <zorder>widget_integral</zorder>
+   </widget>
+   <widget class="QWidget" name="widget_11" native="true">
+    <property name="geometry">
+     <rect>
+      <x>163</x>
+      <y>70</y>
+      <width>961</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/enentq/png/background.png);
+</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QWidget" name="widget" native="true">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/eventq/png/background.png);</string>
+       </property>
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>951</width>
+          <height>751</height>
+         </rect>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="one">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QWidget" name="widget_2" native="true">
+            <property name="styleSheet">
+             <string notr="true">background-image: url(:/eventq/png/全透明.png);</string>
+            </property>
+            <widget class="QPushButton" name="pushButton_pag">
+             <property name="geometry">
+              <rect>
+               <x>800</x>
+               <y>320</y>
+               <width>32</width>
+               <height>62</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/eventq/png/右翻页.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_home">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>330</y>
+               <width>32</width>
+               <height>62</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/eventq/png/左翻页.png);
+background-color:#FFFFFF</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+             <property name="default">
+              <bool>false</bool>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QWidget" name="horizontalLayoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>660</y>
+               <width>211</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="sizeConstraint">
+               <enum>QLayout::SetDefaultConstraint</enum>
+              </property>
+              <item>
+               <widget class="QLabel" name="pag_one">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_two">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_three">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_four">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_five">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_six">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_seven">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_eight">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_nine">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="pag_ten">
+                <property name="maximumSize">
+                 <size>
+                  <width>10</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/翻页1.png);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_setCode">
+             <property name="geometry">
+              <rect>
+               <x>710</x>
+               <y>15</y>
+               <width>200</width>
+               <height>30</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/eventq/png/团队暗号-底.png);
+border-width:0;
+border-style:outset;
+font: 10pt &quot;微软雅黑&quot;;
+border-radius: 3px; 
+color: rgb(150, 150, 150);
+</string>
+             </property>
+             <property name="text">
+              <string>请输入团队暗号</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_Codequery">
+             <property name="geometry">
+              <rect>
+               <x>880</x>
+               <y>20</y>
+               <width>20</width>
+               <height>19</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/eventq/png/暗号查找2.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="flat">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QWidget" name="widget_4" native="true">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>60</y>
+               <width>661</width>
+               <height>601</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/eventq/png/全透明.png);</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_4" rowstretch="0,0" columnstretch="0,0,0">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QWidget" name="widget_one" native="true">
+                <property name="maximumSize">
+                 <size>
+                  <width>199</width>
+                  <height>277</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事配图/1.jpg);</string>
+                </property>
+                <widget class="QLabel" name="label_one">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>70</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+border-width:0;border-style:outset;
+color: rgb(220, 220, 220);</string>
+                 </property>
+                 <property name="text">
+                  <string>免费场</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_one1">
+                 <property name="geometry">
+                  <rect>
+                   <x>19</x>
+                   <y>90</y>
+                   <width>171</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);
+font: 75 12pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>个人挑战赛</string>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_one">
+                 <property name="geometry">
+                  <rect>
+                   <x>19</x>
+                   <y>218</y>
+                   <width>160</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(255, 255, 255);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_one2">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>112</y>
+                   <width>171</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(150, 150, 150);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+font: 10pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>多倍积分</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>-5</x>
+                   <y>-3</y>
+                   <width>209</width>
+                   <height>292</height>
+                  </rect>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777211</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事卡片/免费场-静止.png);
+</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QWidget" name="widget_7" native="true">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>163</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_7">
+                  <property name="leftMargin">
+                   <number>6</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_one3">
+                    <property name="styleSheet">
+                     <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                    </property>
+                    <property name="text">
+                     <string>最大收益</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_2">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_one3_2">
+                      <property name="minimumSize">
+                       <size>
+                        <width>60</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(220, 220, 220);
+font: 75 18pt &quot;微软雅黑&quot;;
+</string>
+                      </property>
+                      <property name="text">
+                       <string>5000</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_one3_3">
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                      </property>
+                      <property name="text">
+                       <string>娱币</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QLabel" name="centestid_one">
+                 <property name="geometry">
+                  <rect>
+                   <x>30</x>
+                   <y>40</y>
+                   <width>0</width>
+                   <height>0</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                </widget>
+                <zorder>centestid_one</zorder>
+                <zorder>label_3</zorder>
+                <zorder>label_one2</zorder>
+                <zorder>label_one1</zorder>
+                <zorder>label_one</zorder>
+                <zorder>widget_7</zorder>
+                <zorder>pushButton_one</zorder>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QWidget" name="widget_two" native="true">
+                <property name="maximumSize">
+                 <size>
+                  <width>201</width>
+                  <height>277</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事配图/2.jpg);</string>
+                </property>
+                <widget class="QLabel" name="label_two_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>90</y>
+                   <width>171</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+font: 75 12pt &quot;微软雅黑&quot;;
+color: rgb(150, 150, 150);;</string>
+                 </property>
+                 <property name="text">
+                  <string>个人挑战赛</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>110</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(150, 150, 150);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+font: 10pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>多倍积分</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_two">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>217</y>
+                   <width>161</width>
+                   <height>32</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two">
+                 <property name="geometry">
+                  <rect>
+                   <x>23</x>
+                   <y>70</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+border-width:0;border-style:outset;
+color: rgb(220, 220, 220);</string>
+                 </property>
+                 <property name="text">
+                  <string>免费场</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>-5</x>
+                   <y>-3</y>
+                   <width>211</width>
+                   <height>291</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事卡片/免费场-静止.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QWidget" name="widget_8" native="true">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>163</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_8">
+                  <property name="leftMargin">
+                   <number>6</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_one3_4">
+                    <property name="styleSheet">
+                     <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                    </property>
+                    <property name="text">
+                     <string>最大收益</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_3">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_one3_5">
+                      <property name="minimumSize">
+                       <size>
+                        <width>60</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(220, 220, 220);
+font: 75 18pt &quot;微软雅黑&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>5000</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_one3_6">
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                      </property>
+                      <property name="text">
+                       <string>娱币</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_2">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QLabel" name="centestid_two">
+                 <property name="geometry">
+                  <rect>
+                   <x>40</x>
+                   <y>40</y>
+                   <width>0</width>
+                   <height>0</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                </widget>
+                <zorder>centestid_two</zorder>
+                <zorder>label_4</zorder>
+                <zorder>label_two_2</zorder>
+                <zorder>label_two_3</zorder>
+                <zorder>pushButton_two</zorder>
+                <zorder>label_two</zorder>
+                <zorder>widget_8</zorder>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="QWidget" name="widget_three" native="true">
+                <property name="maximumSize">
+                 <size>
+                  <width>201</width>
+                  <height>277</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border-image: url(:/eventq/png/赛事配图/3.jpg);
+background-image: url(:/eventq/png/全透明.png);</string>
+                </property>
+                <widget class="QLabel" name="label_two_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>70</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+border-width:0;border-style:outset;
+color: rgb(220, 220, 220);</string>
+                 </property>
+                 <property name="text">
+                  <string>免费场</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>110</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(150, 150, 150);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+font: 10pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>多倍积分</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                 </property>
+                </widget>
+                <widget class="QWidget" name="widget_12" native="true">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>164</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_10">
+                  <property name="leftMargin">
+                   <number>6</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_one3_10">
+                    <property name="styleSheet">
+                     <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                    </property>
+                    <property name="text">
+                     <string>最大收益</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_5">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_one3_11">
+                      <property name="minimumSize">
+                       <size>
+                        <width>60</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(220, 220, 220);
+font: 75 18pt &quot;微软雅黑&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>5000</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_one3_12">
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                      </property>
+                      <property name="text">
+                       <string>娱币</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_4">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QLabel" name="label_two_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>90</y>
+                   <width>171</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+font: 75 12pt &quot;微软雅黑&quot;;
+color: rgb(150, 150, 150);;</string>
+                 </property>
+                 <property name="text">
+                  <string>个人挑战赛</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>-5</x>
+                   <y>-3</y>
+                   <width>211</width>
+                   <height>291</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事卡片/免费场-静止.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_three">
+                 <property name="geometry">
+                  <rect>
+                   <x>19</x>
+                   <y>219</y>
+                   <width>163</width>
+                   <height>27</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="centestid_three">
+                 <property name="geometry">
+                  <rect>
+                   <x>40</x>
+                   <y>40</y>
+                   <width>0</width>
+                   <height>0</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                </widget>
+                <zorder>centestid_three</zorder>
+                <zorder>label_6</zorder>
+                <zorder>label_two_6</zorder>
+                <zorder>label_two_4</zorder>
+                <zorder>widget_12</zorder>
+                <zorder>label_two_5</zorder>
+                <zorder>pushButton_three</zorder>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QWidget" name="widget_five" native="true">
+                <property name="maximumSize">
+                 <size>
+                  <width>202</width>
+                  <height>281</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事配图/5.jpg);</string>
+                </property>
+                <widget class="QLabel" name="label_8">
+                 <property name="geometry">
+                  <rect>
+                   <x>-5</x>
+                   <y>-3</y>
+                   <width>211</width>
+                   <height>291</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事卡片/免费场-静止.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_12">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>70</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+border-width:0;border-style:outset;
+color: rgb(220, 220, 220);</string>
+                 </property>
+                 <property name="text">
+                  <string>免费场</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_five">
+                 <property name="geometry">
+                  <rect>
+                   <x>17</x>
+                   <y>217</y>
+                   <width>161</width>
+                   <height>32</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_10">
+                 <property name="geometry">
+                  <rect>
+                   <x>17</x>
+                   <y>110</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(150, 150, 150);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+font: 10pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>多倍积分</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_11">
+                 <property name="geometry">
+                  <rect>
+                   <x>17</x>
+                   <y>90</y>
+                   <width>181</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+font: 75 12pt &quot;微软雅黑&quot;;
+color: rgb(150, 150, 150);;</string>
+                 </property>
+                 <property name="text">
+                  <string>个人挑战赛</string>
+                 </property>
+                </widget>
+                <widget class="QWidget" name="widget_14" native="true">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>163</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_12">
+                  <property name="leftMargin">
+                   <number>6</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_one3_16">
+                    <property name="styleSheet">
+                     <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                    </property>
+                    <property name="text">
+                     <string>最大收益</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_7">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_one3_17">
+                      <property name="minimumSize">
+                       <size>
+                        <width>60</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(220, 220, 220);
+font: 75 18pt &quot;微软雅黑&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>5000</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_one3_18">
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                      </property>
+                      <property name="text">
+                       <string>娱币</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_6">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QLabel" name="centestid_five">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>40</y>
+                   <width>0</width>
+                   <height>0</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                </widget>
+                <zorder>centestid_five</zorder>
+                <zorder>label_8</zorder>
+                <zorder>label_two_12</zorder>
+                <zorder>pushButton_five</zorder>
+                <zorder>label_two_10</zorder>
+                <zorder>label_two_11</zorder>
+                <zorder>widget_14</zorder>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QWidget" name="widget_four" native="true">
+                <property name="maximumSize">
+                 <size>
+                  <width>199</width>
+                  <height>277</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事配图/4.jpg);</string>
+                </property>
+                <widget class="QLabel" name="label_two_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>71</y>
+                   <width>51</width>
+                   <height>20</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+border-width:0;border-style:outset;
+color: rgb(220, 220, 220);</string>
+                 </property>
+                 <property name="text">
+                  <string>免费场</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>-5</x>
+                   <y>-3</y>
+                   <width>209</width>
+                   <height>291</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事卡片/免费场-静止.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QWidget" name="widget_13" native="true">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>163</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_11">
+                  <property name="leftMargin">
+                   <number>6</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_one3_13">
+                    <property name="styleSheet">
+                     <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                    </property>
+                    <property name="text">
+                     <string>最大收益</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_6">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_one3_14">
+                      <property name="minimumSize">
+                       <size>
+                        <width>60</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(220, 220, 220);
+font: 75 18pt &quot;微软雅黑&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>5000</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_one3_15">
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                      </property>
+                      <property name="text">
+                       <string>娱币</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QLabel" name="label_two_8">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>90</y>
+                   <width>171</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+font: 75 12pt &quot;微软雅黑&quot;;
+color: rgb(150, 150, 150);;</string>
+                 </property>
+                 <property name="text">
+                  <string>个人挑战赛</string>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>110</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(150, 150, 150);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+font: 10pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>多倍积分</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                 </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton_four">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>217</y>
+                   <width>161</width>
+                   <height>32</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="centestid_four">
+                 <property name="geometry">
+                  <rect>
+                   <x>30</x>
+                   <y>30</y>
+                   <width>0</width>
+                   <height>0</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                </widget>
+                <zorder>centestid_four</zorder>
+                <zorder>label_7</zorder>
+                <zorder>label_two_9</zorder>
+                <zorder>widget_13</zorder>
+                <zorder>label_two_8</zorder>
+                <zorder>label_two_7</zorder>
+                <zorder>pushButton_four</zorder>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QWidget" name="widget_six" native="true">
+                <property name="maximumSize">
+                 <size>
+                  <width>231</width>
+                  <height>286</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事配图/6.jpg);</string>
+                </property>
+                <widget class="QLabel" name="label_9">
+                 <property name="geometry">
+                  <rect>
+                   <x>-5</x>
+                   <y>-3</y>
+                   <width>211</width>
+                   <height>291</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/赛事卡片/免费场-静止.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_15">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>70</y>
+                   <width>51</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+border-width:0;border-style:outset;
+color: rgb(220, 220, 220);</string>
+                 </property>
+                 <property name="text">
+                  <string>免费场</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_13">
+                 <property name="geometry">
+                  <rect>
+                   <x>17</x>
+                   <y>110</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(150, 150, 150);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+font: 10pt &quot;微软雅黑&quot;;</string>
+                 </property>
+                 <property name="text">
+                  <string>多倍积分</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="label_two_14">
+                 <property name="geometry">
+                  <rect>
+                   <x>17</x>
+                   <y>90</y>
+                   <width>171</width>
+                   <height>21</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/enentq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);
+font: 75 12pt &quot;微软雅黑&quot;;
+color: rgb(150, 150, 150);;</string>
+                 </property>
+                 <property name="text">
+                  <string>个人挑战赛</string>
+                 </property>
+                </widget>
+                <widget class="QWidget" name="widget_15" native="true">
+                 <property name="geometry">
+                  <rect>
+                   <x>20</x>
+                   <y>164</y>
+                   <width>161</width>
+                   <height>41</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_13">
+                  <property name="leftMargin">
+                   <number>6</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_one3_19">
+                    <property name="styleSheet">
+                     <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                    </property>
+                    <property name="text">
+                     <string>最大收益</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <layout class="QHBoxLayout" name="horizontalLayout_8">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_one3_20">
+                      <property name="minimumSize">
+                       <size>
+                        <width>60</width>
+                        <height>15</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(220, 220, 220);
+font: 75 18pt &quot;微软雅黑&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>5000</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_one3_21">
+                      <property name="styleSheet">
+                       <string notr="true">background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);
+color: rgb(150, 150, 150);</string>
+                      </property>
+                      <property name="text">
+                       <string>娱币</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_7">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+                <widget class="QPushButton" name="pushButton_six">
+                 <property name="geometry">
+                  <rect>
+                   <x>17</x>
+                   <y>217</y>
+                   <width>161</width>
+                   <height>32</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(255, 255, 255);background-image: url(:/enentq/png/全透明.png);border-image: url(:/eventq/png/全透明.png);</string>
+                 </property>
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+                <widget class="QLabel" name="centestid_six">
+                 <property name="geometry">
+                  <rect>
+                   <x>50</x>
+                   <y>30</y>
+                   <width>0</width>
+                   <height>0</height>
+                  </rect>
+                 </property>
+                 <property name="text">
+                  <string>TextLabel</string>
+                 </property>
+                </widget>
+                <zorder>centestid_six</zorder>
+                <zorder>label_9</zorder>
+                <zorder>label_two_15</zorder>
+                <zorder>label_two_13</zorder>
+                <zorder>label_two_14</zorder>
+                <zorder>widget_15</zorder>
+                <zorder>pushButton_six</zorder>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="widget_10" native="true">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>-10</y>
+               <width>82</width>
+               <height>761</height>
+              </rect>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>82</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/eventq/png/游戏列表二级菜单background.png);</string>
+             </property>
+             <widget class="QScrollArea" name="scrollArea">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>80</y>
+                <width>81</width>
+                <height>561</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <kerning>true</kerning>
+               </font>
+              </property>
+              <property name="mouseTracking">
+               <bool>false</bool>
+              </property>
+              <property name="acceptDrops">
+               <bool>false</bool>
+              </property>
+              <property name="autoFillBackground">
+               <bool>false</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-image: url(:/eventq/png/全透明.png);</string>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <property name="verticalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="horizontalScrollBarPolicy">
+               <enum>Qt::ScrollBarAlwaysOff</enum>
+              </property>
+              <property name="sizeAdjustPolicy">
+               <enum>QAbstractScrollArea::AdjustIgnored</enum>
+              </property>
+              <property name="widgetResizable">
+               <bool>true</bool>
+              </property>
+              <widget class="QWidget" name="scrollAreaWidgetContents">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>0</y>
+                 <width>79</width>
+                 <height>559</height>
+                </rect>
+               </property>
+               <layout class="QFormLayout" name="formLayout">
+                <property name="horizontalSpacing">
+                 <number>0</number>
+                </property>
+                <property name="verticalSpacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item row="0" column="0" colspan="2">
+                 <widget class="QPushButton" name="pushButton_AIEcho">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);
+border-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>艾欧尼亚</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QPushButton" name="pushButton_juan">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>祖安</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="1">
+                 <widget class="QPushButton" name="pushButton_Noxus">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>诺克萨斯</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="1">
+                 <widget class="QPushButton" name="pushButton_Bandle">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>班德尔城</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="1">
+                 <widget class="QPushButton" name="pushButton_APyrgi">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>皮尔吉袄特</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="5" column="1">
+                 <widget class="QPushButton" name="pushButton_WarCollege">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>战争学院</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="6" column="1">
+                 <widget class="QPushButton" name="pushButton_GiantGodPeak">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>巨神峰</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="7" column="1">
+                 <widget class="QPushButton" name="pushButton_ReetheGarrison">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>雷瑟守备</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="8" column="1">
+                 <widget class="QPushButton" name="pushButton_LandOfJudgment">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>裁决之地</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="9" column="1">
+                 <widget class="QPushButton" name="pushButton_BlackRose">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>黑色玫瑰</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="10" column="1">
+                 <widget class="QPushButton" name="pushButton_ShadowLsles">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>暗影岛</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="11" column="1">
+                 <widget class="QPushButton" name="pushButton_SteelHeat">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>钢铁烈阳</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="12" column="1">
+                 <widget class="QPushButton" name="pushButton_BalancedDenomination">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>均衡教派</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="13" column="1">
+                 <widget class="QPushButton" name="pushButton_CrystalSScar">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>水晶之痕</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="14" column="1">
+                 <widget class="QPushButton" name="pushButton_ShadowFlow">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>影流</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="15" column="1">
+                 <widget class="QPushButton" name="pushButton_WatchOfTheSea">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>守望之海</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="16" column="1">
+                 <widget class="QPushButton" name="pushButton_ConquestOfTheSea">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>征服之海</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="17" column="1">
+                 <widget class="QPushButton" name="pushButton_Kalamunda">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>卡拉曼达</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="18" column="1">
+                 <widget class="QPushButton" name="pushButton_CityGuard">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>皮城警备</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="19" column="1">
+                 <widget class="QPushButton" name="pushButton_BaoshBirgi">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>比尔吉澳特</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="20" column="1">
+                 <widget class="QPushButton" name="pushButton_Demacia">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>德玛西亚</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="21" column="1">
+                 <widget class="QPushButton" name="pushButton_FerrerJuud">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>费雷尔卓德</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="22" column="1">
+                 <widget class="QPushButton" name="pushButton_FearlessVanguard">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>无畏先锋</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="23" column="1">
+                 <widget class="QPushButton" name="pushButton_TwistedTreeline">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>扭曲丛林</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="24" column="1">
+                 <widget class="QPushButton" name="pushButton_TheWrathofRama">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>怒瑞玛</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="25" column="1">
+                 <widget class="QPushButton" name="pushButton_Dragon">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);</string>
+                  </property>
+                  <property name="text">
+                   <string>巨龙之巢</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item row="26" column="1">
+                 <widget class="QPushButton" name="pushButton_Education">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(150, 150, 150);
+font: 10pt &quot;微软雅黑&quot;;
+background-image: url(:/eventq/png/全透明.png);;</string>
+                  </property>
+                  <property name="text">
+                   <string>教育网专用</string>
+                  </property>
+                  <property name="flat">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="two">
+         <layout class="QGridLayout" name="gridLayout_3">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <layout class="QGridLayout" name="gridLayout_9">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="three">
+         <widget class="QWidget" name="gridLayoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>961</width>
+            <height>751</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5"/>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="four">
+         <widget class="QWidget" name="gridLayoutWidget_2">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>20</y>
+            <width>891</width>
+            <height>701</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6"/>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1066</x>
+      <y>10</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/eventq/png/最小化.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>pushButton_hall</zorder>
+   <zorder>pushButton_Recharge</zorder>
+   <zorder>pushButton_Platformmall</zorder>
+   <zorder>pushButton_Entryrecord</zorder>
+   <zorder>pushButton_Invitefriends</zorder>
+   <zorder>pushButton_Youmentionmechange</zorder>
+   <zorder>pushButton_Ladderranking</zorder>
+   <zorder>pushButton_Setup</zorder>
+   <zorder>pushButton_Helpcenter</zorder>
+   <zorder>pushButton_Officialnews</zorder>
+   <zorder>label_5</zorder>
+   <zorder>widget_9</zorder>
+   <zorder>widget_11</zorder>
+   <zorder>pushButton_close</zorder>
+   <zorder>pushButton</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>lineEdit_setCode</tabstop>
+  <tabstop>pushButton_one</tabstop>
+  <tabstop>pushButton_hall</tabstop>
+  <tabstop>pushButton_home</tabstop>
+  <tabstop>pushButton_pag</tabstop>
+  <tabstop>pushButton_close</tabstop>
+  <tabstop>pushButton_Recharge</tabstop>
+  <tabstop>pushButton_Platformmall</tabstop>
+  <tabstop>pushButton_Entryrecord</tabstop>
+  <tabstop>pushButton_Officialnews</tabstop>
+  <tabstop>pushButton_Invitefriends</tabstop>
+  <tabstop>pushButton_Youmentionmechange</tabstop>
+  <tabstop>pushButton_Ladderranking</tabstop>
+  <tabstop>pushButton_Setup</tabstop>
+  <tabstop>pushButton_Helpcenter</tabstop>
+  <tabstop>pushButton_Codequery</tabstop>
+ </tabstops>
+ <resources>
+  <include location="eventplclent.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_Recharge</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Recharge()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Platformmall</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Platformmall()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>545</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_hall</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_hall()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>393</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Entryrecord</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Entryrecord()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>482</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Officialnews</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Officialnews()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>588</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Invitefriends</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Invitefriends()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>693</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Youmentionmechange</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Youmentionmechange()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Setup</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Setup()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1010</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Helpcenter</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Helpcenter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1116</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_close</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1156</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>736</x>
+     <y>305</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Ladderranking</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Ladderranking()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>904</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_one</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_pushButton_one()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>421</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>481</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_home</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_home()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>280</x>
+     <y>420</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>630</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_pag</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_pag()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1070</x>
+     <y>420</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>630</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_personalsolo</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_personalsolo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>79</x>
+     <y>358</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>553</x>
+     <y>457</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_teamchange</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_teamchange()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>399</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>553</x>
+     <y>457</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_EntertainmentCurrency</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_EntertainmentCurrency()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>236</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>431</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_integral</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_integral()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>431</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_HeroUnion</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_HeroUnion()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>331</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>442</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Hearthstone</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_Hearthstone()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>442</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_three</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_pushButton_three()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>848</x>
+     <y>377</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_two</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_pushButton_two()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>632</x>
+     <y>377</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_four</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_pushButton_four()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>418</x>
+     <y>669</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_five</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_pushButton_five()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>669</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_six</sender>
+   <signal>clicked()</signal>
+   <receiver>eventPLclentClass</receiver>
+   <slot>slots_pushButton_six()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>845</x>
+     <y>669</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slots_Recharge()</slot>
+  <slot>slots_Platformmall()</slot>
+  <slot>slots_hall()</slot>
+  <slot>slots_Entryrecord()</slot>
+  <slot>slots_Officialnews()</slot>
+  <slot>slots_Invitefriends()</slot>
+  <slot>slots_Youmentionmechange()</slot>
+  <slot>slots_Ladderranking()</slot>
+  <slot>slots_Setup()</slot>
+  <slot>slots_Helpcenter()</slot>
+  <slot>slots_close()</slot>
+  <slot>slots_pushButton_one()</slot>
+  <slot>slots_home()</slot>
+  <slot>slots_pag()</slot>
+  <slot>slots_personalsolo()</slot>
+  <slot>slots_teamchange()</slot>
+  <slot>slots_EntertainmentCurrency()</slot>
+  <slot>slots_integral()</slot>
+  <slot>slots_Hearthstone()</slot>
+  <slot>slots_HeroUnion()</slot>
+  <slot>slots_pushButton_two()</slot>
+  <slot>slots_pushButton_three()</slot>
+  <slot>slots_pushButton_four()</slot>
+  <slot>slots_pushButton_five()</slot>
+  <slot>slots_pushButton_six()</slot>
+ </slots>
+</ui>

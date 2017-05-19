@@ -1,0 +1,12 @@
+﻿  Moc'ing wjclientsocketlogic.h...
+  WJMemoryPool.cpp
+  commonfunction_c.cpp
+  moc_wjclientsocketlogic.cpp
+  wjclientsocketlogic.cpp
+  WJClientSocket_load.cpp
+  WJSocketMessage.cpp
+  WJSocketProtocolData.cpp
+  WJSocketThread.cpp
+  正在生成代码...
+     正在创建库 E:\c++work\Object3.0\sdk/lib/WJClientSocketLogic_d.lib 和对象 E:\c++work\Object3.0\sdk/lib/WJClientSocketLogic_d.exp
+  WJClientSocketLogic.vcxproj -> E:\c++work\Object3.0\run\Debug\WJClientSocketLogic_d.dll

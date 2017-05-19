@@ -1,0 +1,1 @@
+此DLL被注入进CrossProxy.exe去取区服和QQ号

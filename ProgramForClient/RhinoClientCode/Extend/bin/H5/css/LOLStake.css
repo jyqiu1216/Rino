@@ -1,0 +1,199 @@
+* {
+    font:normal normal 62.5% Microsoft YaHei, arial,sans-serif;
+}
+.LOL_stakeBox {
+    width: 280px;
+    height: 1005px;
+    background: #0c1210;
+}
+.LOL_stakeBoxRetract {
+    width: 191px;
+    height: 91px;
+    background: url(../images/taskDekaron/LOL_packUp.png);
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+.LOL_stakeBoxDetail {
+    position: absolute;
+    top: 0px;
+}
+.LOL_stakeTask {
+    width: 280px;
+    height: 437px;
+}
+.LOL_stakeOneTask {
+    float: right;
+    display: none;
+    width: 253px;
+    height: 241px;
+    background: url(../images/taskDekaron/LOLborder2.png);
+    overflow: hidden;
+}
+.LOL_stakeOneTask ul {
+    width: 190px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 90px 0 0 33px;
+}
+.LOL_stakeOneTask ul li {
+    width: 190px;
+    height: 126px;
+    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+}
+.LOL_stakeOneTask .LOL_shrinkBtn {
+    width: 23px;
+    height: 23px;
+    background: url(../images/taskDekaron/HS_content.png) -376px -48px no-repeat;
+    position: relative;
+    top: -176px;
+    left: 205px;
+}
+.LOL_stakeOneTask ul li:last-child {
+    border-bottom: 1px solid transparent;
+}
+.LOL_stakeTwoTask .LOL_shrinkBtn {
+    width: 23px;
+    height: 23px;
+    background: url(../images/taskDekaron/HS_content.png) -376px -48px no-repeat;
+    position: relative;
+    top: -301px;
+    left: 205px;
+}
+.LOL_stakeTwoTask {
+    float: right;
+    /*display: none;*/
+    width: 254px;
+    height: 384px;
+    background: url(../images/taskDekaron/LOLborder.png);
+    overflow: hidden;
+}
+.LOL_stakeTwoTask ul {
+    width: 190px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 90px 0 0 33px;
+}
+.LOL_stakeTwoTask ul li {
+    width: 190px;
+    height: 126px;
+    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+}
+.LOL_stakeTwoTask ul li:last-child {
+    border-bottom: 1px solid transparent;
+}
+.LOL_stakeTaskTitle {
+    width: 190px;
+    height: 26px;
+    line-height: 26px;
+    text-align: left;
+    font-size: 14px;
+    color: #f1d077;
+    margin: 0;
+}
+.LOL_stakeTaskRequest {
+    width: 190px;
+    height: 67px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+.LOL_stakeTwoTask ul li span {
+    font-size: 14px;
+    color: #989595;
+}
+.LOL_stakeTwoTask ul li .success {
+    color: #53920a;
+}
+.LOL_stakePoints {
+    float: right;
+    width: 275px;
+    height: 564px;
+    background: url(../images/taskDekaron/LOLstake.png);
+    overflow: hidden;
+}
+.LOL_stakePoints p {
+    width: 275px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fdf8db;
+    margin-top: 190px;
+}
+.LOL_stakePoints ul {
+    padding: 0;
+    list-style: none;
+    width: 160px;
+    height: 165px;
+    margin: 13px 0 0 60px;
+}
+.LOL_stakePoints ul li {
+    float: left;
+    width: 75px;
+    height: 73px;
+    background: url(../images/taskDekaron/HS_content.png) -423px -205px no-repeat;
+    transition: all 0.1s;
+}
+.LOL_stakePoints ul li:hover {
+    -webkit-transform:scale(1.02) ;
+}
+.LOL_stakePoints ul li:first-child,.LOL_stakePoints ul li:nth-child(3){
+    margin: 0 10px 10px 0;
+}
+.LOL_stakePoints ul li span {
+    display: inline-block;
+    height: 73px;
+    width: 75px;
+    text-align: center;
+    line-height: 73px;
+    font-size: 24px;
+    color: #E7BE8A;
+    font-weight: bold;
+}
+.LOL_stakePoints ul li .LOL_chosen {
+    display: none;
+    width: 63px;
+    height: 48px;
+    background: url(../images/taskDekaron/HS_content.png) -614px -16px no-repeat;
+    position: relative;
+    top: -35px;
+    left: 29px;
+}
+.LOL_stakePoints .LOL_stakeBtn {
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    background: url(../images/taskDekaron/HS_content.png) -423px -9px no-repeat;
+    margin: 30px 0 0 62px;
+    font-size: 30px;
+    color: #7c0606;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.1s;
+}
+.LOL_stakePoints .LOL_stakeBtn:hover {
+    -webkit-transform:scale(1.06) ;
+}
+.LOL_stakePoints .LOL_MyPoints {
+    width: 275px;
+    height: 20px;
+    font-size: 14px;
+    color: #fbd826;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 27px;
+    margin-left: 5px;
+}
+.LOL_stakePoints .LOL_MyPoints span {
+    height: 20px;
+    font-size: 14px;
+    color: #fbd826;
+    text-align: left;
+    line-height: 20px;
+}

@@ -1,0 +1,6 @@
+
+
+
+function startup_hs()
+    print("启动炉石传说");
+end

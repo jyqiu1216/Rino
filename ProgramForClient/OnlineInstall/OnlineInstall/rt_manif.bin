@@ -1,0 +1,16 @@
+01.<?xml version="1.0" encoding="UTF-8" standalone="yes"?>   
+02.<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">   
+03.<assemblyIdentity   
+04.  version="1.0.0.0"   
+05.  processorArchitecture="X86"   
+06.  name="mulitray.exe.manifest"   
+07.  type="win32"   
+08./>   
+09.<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">   
+10.  <security>   
+11.    <requestedPrivileges>   
+12.        <requestedExecutionLevel level="requireAdministrator" uiAccess="false"/>   
+13.    </requestedPrivileges>   
+14.  </security>   
+15.</trustInfo>   
+16.</assembly>   

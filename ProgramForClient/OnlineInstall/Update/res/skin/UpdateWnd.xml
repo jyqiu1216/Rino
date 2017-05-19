@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,183" roundcorner="1,1,1,1" >
+    <Font name="微软雅黑" size="12" default="true" />
+    <Font name="微软雅黑" size="18" />
+    <VerticalLayout bkimage="bg.png">
+		<Text name="Txt_Progress" font="1" text="平台正在更新中...(0%)" float="true" pos="195,56,0,0" width="500" height="30" textpadding="2,0,2,0" align="left" textcolor="0xFFFFFFFF" />
+        <Progress name="Pro_Update" float="true" pos="18,105,0,0" width="766" height="30" min="0" max="100" value="0" hor="true" textcolor="#ffffffff"  textpadding="0,5,0,0" foreimage="Progress_suc.png"/>
+		<Text text="更新遇到问题？试试" float="true" pos="10,156,0,0" width="120" height="30" textpadding="2,0,2,0" align="left" textcolor="0xFFFFFFFF" />
+		<Text name="Txt_UpdateClient" text="<a http://xiniugame.com/download><c #0021beff>下载完整客户端</c></a>" textcolor="#0021beff" showhtml="bool" float="true" pos="125,156,0,0" width="120" height="30" textpadding="2,0,2,0" align="left" />
+		<Button name="Btn_cancel" text="取消更新" textcolor="#0021beff" float="true" pos="730,156,0,0" width="100" height="30" align="left"/>
+    </VerticalLayout>
+</Window>

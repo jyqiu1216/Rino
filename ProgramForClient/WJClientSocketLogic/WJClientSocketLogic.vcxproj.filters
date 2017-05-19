@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{dd3d76f1-4868-427e-b45d-30de1bf41f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{c3b3b709-9843-4a38-867b-438565e0fedb}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{627de6b4-acda-4ef4-8330-a40530c6ae4d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug_Nuuse_QT">
+      <UniqueIdentifier>{a293875d-de63-47cb-89fe-3fc5813817bd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release_Nuuse_QT">
+      <UniqueIdentifier>{7681ab86-538c-4468-867a-57a8438787db}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wjclientsocketlogic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSocketProtocolData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSocketThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sdk\common\WJMemoryPool.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="WJSocketMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WJClientSocket_load.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="commonfunction_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug_Nuuse_QT\moc_wjclientsocketlogic.cpp">
+      <Filter>Generated Files\Debug_Nuuse_QT</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_wjclientsocketlogic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_wjclientsocketlogic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release_Nuuse_QT\moc_wjclientsocketlogic.cpp">
+      <Filter>Generated Files\Release_Nuuse_QT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WJSocketProtocolData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\clientsocket\WJSocketEventDelegate.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\clientsocket\WJSocketMessage.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJBaseType.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJCommonMarco.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJMemoryPool.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJPtrArray.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\common\WJUIDelegateQueue.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetMessageHead.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetPlatformMessage.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\clientsocket\WJSocketSelector.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\clientsocket\WJSocketMessageDelegate.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\clientsocket\WJClientSocket_load.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\clientsocket\WJSocketThread.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\message\WJNetRM_game_frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\clientsocket\commonfunction_c.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\sdk\clientsocket\wjclientsocketlogic.h">
+      <Filter>sdk</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WJClientSocketLogic.rc" />
+  </ItemGroup>
+</Project>
